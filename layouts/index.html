@@ -1,0 +1,21 @@
+<!-- <h1>{{ .Title }}</h1> -->
+
+<h1>{{ .CurrentSection.Title }}</h1>
+
+<ul>
+  {{ range .CurrentSection.Sections }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+<!-- <ul>
+	{{ range .CurrentSection.Resources }}
+    <li>
+      <a href="{{ .RelPermalink }}" >{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul> -->
+
+{{ .Content }}

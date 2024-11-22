@@ -1,0 +1,4 @@
+---
+title: "Klubben"
+auto: true
+---

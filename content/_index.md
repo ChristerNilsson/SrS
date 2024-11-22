@@ -1,0 +1,6 @@
+---
+title: "Seniorschack"
+---
+
+Allmän beskrivning
+

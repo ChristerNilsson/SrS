@@ -1,0 +1,4 @@
+---
+title: "Blanketter"
+auto: true
+---

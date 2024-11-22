@@ -1,0 +1,4 @@
+---
+title: "Resultat"
+auto: true
+---
