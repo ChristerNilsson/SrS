@@ -1168,8 +1168,6 @@
   </url><url>
     <loc>http://localhost:1313/klubben/styrelse/</loc>
   </url><url>
-    <loc>http://localhost:1313/klubben/webmaster/</loc>
-  </url><url>
     <loc>http://localhost:1313/program/klubbm%C3%A4sterskap/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/datorkalkylering/1_spel%C3%B6ppning/</loc>
@@ -1256,8 +1254,6 @@
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/partier/</loc>
   </url><url>
-    <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/performance_calculator/</loc>
-  </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/performance_calculators/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/piece_square_table/</loc>
@@ -1287,5 +1283,7 @@
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/todo/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/veckans_kombination/</loc>
+  </url><url>
+    <loc>http://localhost:1313/klubben/webmaster/</loc>
   </url>
 </urlset>
