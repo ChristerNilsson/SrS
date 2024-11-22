@@ -52,6 +52,10 @@ Följande element användes:
 * Kalender-hantering
 	* Troligen via normal bloghantering.
 * Byt ut kvarvarande HTM
+* Klubben: vore trevligt om menyalternativen var alfabetiska i EN grupp.
+	* Kan göras med auto=false, dvs manuellt
+* Rama in rubrikraden i tabellerna
+* Skippa auto. Onödigt!
 
 ### Work around
 
