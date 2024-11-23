@@ -1,7 +1,19 @@
-<!-- <h1>{{ .Title }}</h1> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}">
+</head>
+<body>
+
+  <!-- <h1>{{ .Title }}</h1> -->
 
 <h1>{{ .CurrentSection.Title }}</h1>
 
+<div> 
 <ul>
   {{ range .CurrentSection.Sections }}
     <li>
@@ -19,3 +31,8 @@
 </ul> -->
 
 {{ .Content }}
+
+</div>
+</body>
+</html>
+
