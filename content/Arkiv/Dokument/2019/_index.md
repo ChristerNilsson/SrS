@@ -1,7 +1,7 @@
 ---
 title: "2019"
 ---
-[Styrelse, tävlingskommitté, revisor och valberedning 2019](HTM/seniorstyrelse_2019.pdf)
+[Styrelse, tävlingskommitté, revisor och valberedning 2019](seniorstyrelse_2019.pdf)
 ## Klubbavgifter
 
 Kategori|Kronor|  

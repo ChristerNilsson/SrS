@@ -2,7 +2,7 @@
 title: "2020"
 ---
 
-[Styrelse, tävlingskommitté, revisor och valberedning 2020](HTM/seniorstyrelse_2020.pdf)
+[Styrelse, tävlingskommitté, revisor och valberedning 2020](seniorstyrelse_2020.pdf)
 ## Klubbavgifter
 
 |Kategori|Kronor|

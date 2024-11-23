@@ -1,7 +1,7 @@
 ---
 title: "2018"
 ---
-[Styrelse, tävlingskommitté, revisor och valberedning 2018](HTM/seniorstyrelse_2018.pdf)
+[Styrelse, tävlingskommitté, revisor och valberedning 2018](seniorstyrelse_2018.pdf)
 
 ## Klubbavgifter
 

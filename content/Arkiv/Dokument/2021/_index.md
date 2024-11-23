@@ -2,7 +2,7 @@
 title: "2021"
 ---
 
-[Styrelse, tävlingskommitté, revisor och valberedning 2021](HTM/seniorstyrelse_2021.pdf)
+[Styrelse, tävlingskommitté, revisor och valberedning 2021](seniorstyrelse_2021.pdf)
 
 ## Klubbavgifter
 

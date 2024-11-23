@@ -1,7 +1,7 @@
 ---
 title: "2014"
 ---
-[Styrelse, revisor och valberedning 2014](HTM/seniorstyrelse_2014.pdf)
+[Styrelse, revisor och valberedning 2014](seniorstyrelse_2014.pdf)
 
 ## Klubbavgifter
 
