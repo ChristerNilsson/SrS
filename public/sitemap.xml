@@ -1154,7 +1154,9 @@
   </url><url>
     <loc>http://localhost:1313/arkiv/htm/zivicpettersson/</loc>
   </url><url>
-    <loc>http://localhost:1313/arkiv/partier/</loc>
+    <loc>http://localhost:1313/arkiv/partier/agrestkarlsson/</loc>
+  </url><url>
+    <loc>http://localhost:1313/arkiv/partier/agrestuno/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/pgn/</loc>
   </url><url>
@@ -1224,9 +1226,11 @@
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/emi/</loc>
   </url><url>
-    <loc>http://localhost:1313/externa-l%C3%A4nkar/</loc>
+    <loc>http://localhost:1313/externa_l%C3%A4nkar/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/fairpair/</loc>
+  </url><url>
+    <loc>http://localhost:1313/arkiv/htm/</loc>
   </url><url>
     <loc>http://localhost:1313/resultat/individ/</loc>
   </url><url>
@@ -1250,7 +1254,11 @@
   </url><url>
     <loc>http://localhost:1313/arkiv/%C3%B6vrigt/</loc>
   </url><url>
+    <loc>http://localhost:1313/arkiv/partier/</loc>
+  </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/partier/</loc>
+  </url><url>
+    <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/performance_calculator/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/performance_calculators/</loc>
   </url><url>
@@ -1260,7 +1268,7 @@
   </url><url>
     <loc>http://localhost:1313/program/</loc>
   </url><url>
-    <loc>http://localhost:1313/ratings/</loc>
+    <loc>http://localhost:1313/rating/</loc>
   </url><url>
     <loc>http://localhost:1313/resultat/</loc>
   </url><url>
@@ -1283,6 +1291,8 @@
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/todo/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/veckans_kombination/</loc>
+  </url><url>
+    <loc>http://localhost:1313/webkarta/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/webmaster/</loc>
   </url>
