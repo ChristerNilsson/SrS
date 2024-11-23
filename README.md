@@ -22,11 +22,11 @@ Följande element användes:
 
 ### Status
 
-* Arkiv
+* Arkiv KLAR 2024-11-23
 	* Document KLAR 2024-11-22
-	* Partier
+	* Partier NIX
 	* PGN KLAR 2024-11-22
-	* Veckans kombinationer
+	* Veckans kombinationer NIX
 	* Övrigt  KLAR 2024-11-22
 * Externa länkar KLAR 2024-11-22
 * Inställningar 
@@ -42,37 +42,25 @@ Följande element användes:
 * Program  KLAR 2024-11-22
 * Rating KLAR 2024-11-22
 * Resultat KLAR 2024-11-22
+* Webkarta KLAR 2024-11-23
+* Brödsmulor KLAR 2024-11-22
 
 ### Att Göra
 
-* CSS (cascading?)
 * Inställningar (till localStorage)
-* Kjell Persons html-schack
-* Brödsmulor KLAR 2024-11-22
 * Kalender-hantering
 	* Troligen via normal bloghantering.
-* Byt ut kvarvarande HTM
-* Klubben: vore trevligt om menyalternativen var alfabetiska i EN grupp.
-	* Kan göras med auto=false, dvs manuellt
-* Rama in rubrikraden i tabellerna
-* Skippa auto. Onödigt!
-* Webkarta
 
 ### Work around
 
-* Verkar inte som att Goldmark hanterar html i markdown.
-	* Länka till dessa sidor utanför Hugo.
-	* T ex Performance Calculator.
 * Införde en Front Matter-parameter auto
 	* true: automatgenerera 
 		* Förutsätter att katalog- och filnamn är presentabla.
 	* false: skapa _index.md manuellt
-	* Vore trevligt om denna gick att automatisera.
-		* Om text saknas under --- Så sätt auto = true
 
 ### Arbetssätt
 
-* Prefixa index.md => _index.md
+* Byt namn på index.md => _index.md
 * Lägg in Front Matter
 	* ---
 	* title: "Arkiv"
