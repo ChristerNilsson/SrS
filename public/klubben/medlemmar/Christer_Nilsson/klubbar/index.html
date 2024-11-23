@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Klubbar</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,11 +38,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>Klubbar</h1>
-
-    
-    
-    <table>
+		
+		
+		<table>
   <thead>
       <tr>
           <th style="text-align: right">ms</th>
@@ -346,16 +363,7 @@ Passantens korta svarstid beror på att de cachar html. Dessutom är sidan ej up
 Tyvärr är inte xml avsett att läsas av människor utan av Googles webkrälare.<br>
 Men, det går att med tämligen enkla medel tillhandahålla trädet på Wordpress.</p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

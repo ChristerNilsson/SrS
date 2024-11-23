@@ -9,20 +9,37 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Anders Flärdh</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
 <a href="/klubben/medlemmar/">Medlemmar</a>
 
 
-    <h1>Anders Flärdh</h1>
-
-    
-    
-    <p>Född: 1945-08-23</p>
+		
+		
+		<p>Född: 1945-08-23</p>
 <p>Presentation:</p>
 <ul>
 <li>
@@ -33,16 +50,7 @@
 </li>
 </ul>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

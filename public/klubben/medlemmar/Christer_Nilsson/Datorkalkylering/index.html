@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Datorkalkylering</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,43 +38,32 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>Datorkalkylering</h1>
-
-    
-        
-      <ul>
-      
-      <li>
-        <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/1_spel%C3%B6ppning/" >1 Spelöppning</a>
-      </li>
-      
-      <li>
-        <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/2_slutspel/" >2 Slutspel</a>
-      </li>
-      
-      <li>
-        <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/" >3 Mittspel</a>
-      </li>
-      
-      </ul>
-     
-      <ul>
-        
-      </ul>
-    
-    
-    
-    
-  
-  </div>
+		
+			
+			<ul>
+			
+			<li>
+			<a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/1_spel%C3%B6ppning/" >1 Spelöppning</a>
+			</li>
+			
+			<li>
+			<a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/2_slutspel/" >2 Slutspel</a>
+			</li>
+			
+			<li>
+			<a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/" >3 Mittspel</a>
+			</li>
+			
+			</ul>
+		
+			<ul>
+			
+			</ul>
+		
+		
+		
+		
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

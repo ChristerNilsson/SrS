@@ -30,9 +30,11 @@ body[fontsize="24"] { font-size: 24px }
 body[fontsize="26"] { font-size: 26px }
 body[fontsize="28"] { font-size: 28px }
 
+body[font='Helvetica'] { font-family: 'Helvetica'}
+body[font='Courier New'] { font-family: 'Courier New'}
+body[font='Times New Roman'] { font-family: 'Times New Roman'}
 
 body {
-	font-family: 'Helvetica';
 	background-color: black;
 	color:#eeeeee;
 }

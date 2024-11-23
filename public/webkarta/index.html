@@ -9,18 +9,35 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Webkarta</h1>
+
+		
 
 <a href="/">Seniorschack</a>
 
 
-    <h1>Webkarta</h1>
-
-    
-    
-    <p>• <a href="../Arkiv">Arkiv</a><br>
+		
+		
+		<p>• <a href="../Arkiv">Arkiv</a><br>
 • • <a href="../Arkiv/Dokument">Dokument</a><br>
 • • <a href="../Arkiv/%C3%96vrigt">Övrigt</a><br>
 • <a href="../Externa_l%C3%A4nkar">Externa länkar</a><br>
@@ -44,16 +61,7 @@
 • • <a href="../Resultat/Individ">Individ</a><br>
 • • <a href="../Resultat/Lag">Lag</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

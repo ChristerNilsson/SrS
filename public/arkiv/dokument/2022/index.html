@@ -9,20 +9,37 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>2022</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/arkiv/">Arkiv</a> • 
 <a href="/arkiv/dokument/">Dokument</a>
 
 
-    <h1>2022</h1>
-
-    
-    
-    <p><a href="SrS_F%C3%B6rtroendevalda_2022.pdf">Förtroendevalda för verksamhetsåret 2022</a></p>
+		
+		
+		<p><a href="SrS_F%C3%B6rtroendevalda_2022.pdf">Förtroendevalda för verksamhetsåret 2022</a></p>
 <h2 id="klubbavgifter">Klubbavgifter</h2>
 <table>
   <thead>
@@ -66,16 +83,7 @@
 <a href="Protokoll_SrS_nr2_2022.pdf">Styrelsemöte nr. 2 den 27:e januari 2022</a><br>
 <a href="Protokoll_SrS_nr1_2022.pdf">Styrelsemöte nr. 1 den 17:e januari 2022</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

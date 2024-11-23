@@ -9,32 +9,40 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Lag</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/resultat/">Resultat</a>
 
 
-    <h1>Lag</h1>
-
-    
-    
-    <p><a href="https://member.schack.se/ShowTournamentServlet?id=14266">Allsvenskan</a><br>
+		
+		
+		<p><a href="https://member.schack.se/ShowTournamentServlet?id=14266">Allsvenskan</a><br>
 <a href="https://member.schack.se/ShowTournamentServlet?id=14744">Stockholmsserien</a><br>
 <a href="https://member.schack.se/ShowTournamentServlet?id=14562">Lag-DM</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

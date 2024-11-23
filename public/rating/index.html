@@ -9,18 +9,35 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Rating</h1>
+
+		
 
 <a href="/">Seniorschack</a>
 
 
-    <h1>Rating</h1>
-
-    
-    
-    <p><a href="https://member.schack.se/ShowClubRatingServlet?clubid=38453">Farsta SK</a><br>
+		
+		
+		<p><a href="https://member.schack.se/ShowClubRatingServlet?clubid=38453">Farsta SK</a><br>
 <a href="https://member.schack.se/ShowClubRatingServlet?clubid=38454">Hässelby SK</a><br>
 <a href="https://member.schack.se/ShowClubRatingServlet?clubid=38455">Järfälla SS</a><br>
 <a href="https://member.schack.se/ShowClubRatingServlet?clubid=38456">Kristallens SK</a><br>
@@ -43,16 +60,7 @@
 <a href="https://member.schack.se/ShowClubRatingServlet?clubid=38480">Vallentuna SK</a><br>
 <a href="https://member.schack.se/ShowClubRatingServlet?clubid=38481">Wasa SK</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

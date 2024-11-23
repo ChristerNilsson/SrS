@@ -1154,10 +1154,6 @@
   </url><url>
     <loc>http://localhost:1313/arkiv/htm/zivicpettersson/</loc>
   </url><url>
-    <loc>http://localhost:1313/arkiv/partier/agrestkarlsson/</loc>
-  </url><url>
-    <loc>http://localhost:1313/arkiv/partier/agrestuno/</loc>
-  </url><url>
     <loc>http://localhost:1313/arkiv/pgn/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/%C3%B6vrigt/resultat_i_blixt/</loc>
@@ -1165,6 +1161,20 @@
     <loc>http://localhost:1313/arkiv/%C3%B6vrigt/resultat_i_klassiskt/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/%C3%B6vrigt/resultat_i_snabbschack/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/2024-09/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/2024-10/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/2024-11/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/2024-12/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/2025-01/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/</loc>
+  </url><url>
+    <loc>http://localhost:1313/kalender/typ/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/argument_f%C3%B6r_christers_f%C3%B6rslag/case/</loc>
   </url><url>
@@ -1234,6 +1244,8 @@
   </url><url>
     <loc>http://localhost:1313/resultat/individ/</loc>
   </url><url>
+    <loc>http://localhost:1313/inst%C3%A4llningar/</loc>
+  </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/klubbar/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/</loc>
@@ -1253,8 +1265,6 @@
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/minimax/</loc>
   </url><url>
     <loc>http://localhost:1313/arkiv/%C3%B6vrigt/</loc>
-  </url><url>
-    <loc>http://localhost:1313/arkiv/partier/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/partier/</loc>
   </url><url>
@@ -1289,8 +1299,6 @@
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/klubben/medlemmar/christer_nilsson/todo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/arkiv/veckans_kombination/</loc>
   </url><url>
     <loc>http://localhost:1313/webkarta/</loc>
   </url><url>

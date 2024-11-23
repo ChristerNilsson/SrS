@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Minimax</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -21,11 +40,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/">3 Mittspel</a>
 
 
-    <h1>Minimax</h1>
-
-    
-    
-    <ul>
+		
+		
+		<ul>
 <li>A
 <ul>
 <li>B e4
@@ -242,16 +259,7 @@ och gått igenom 32 nivåer i trädet.</p>
 <h3 id="e-2718--2818--2845--9045">e: 2718 | 2818 | 2845 | 9045</h3>
 <h3 id="gyllene-snittet-1618--0339--8874--9894--8482--0458--6834--3656">gyllene snittet: 1618 | 0339 | 8874 | 9894 | 8482 | 0458 | 6834 | 3656</h3>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

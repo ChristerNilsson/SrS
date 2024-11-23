@@ -9,55 +9,63 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Blanketter</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a>
 
 
-    <h1>Blanketter</h1>
-
-    
-        
-      <ul>
-      
-      </ul>
-     
-      <ul>
-        
-          <li>
-            <a href="/klubben/blanketter/Rondlistor_4-24_deltagare.xls" >Rondlistor_4-24_deltagare.xls</a>
-          </li>
-        
-          <li>
-            <a href="/klubben/blanketter/Byte_av_huvudklubb.pdf" >Byte_av_huvudklubb.pdf</a>
-          </li>
-        
-          <li>
-            <a href="/klubben/blanketter/Fullmakt_SrS_%C3%A5rsm%C3%B6te.pdf" >Fullmakt_SrS_årsmöte.pdf</a>
-          </li>
-        
-          <li>
-            <a href="/klubben/blanketter/Ny_medlem.pdf" >Ny_medlem.pdf</a>
-          </li>
-        
-      </ul>
-    
-    
-    
-    
-  
-  </div>
+		
+			
+			<ul>
+			
+			</ul>
+		
+			<ul>
+			
+				<li>
+				<a href="/klubben/blanketter/Rondlistor_4-24_deltagare.xls" >Rondlistor_4-24_deltagare.xls</a>
+				</li>
+			
+				<li>
+				<a href="/klubben/blanketter/Byte_av_huvudklubb.pdf" >Byte_av_huvudklubb.pdf</a>
+				</li>
+			
+				<li>
+				<a href="/klubben/blanketter/Fullmakt_SrS_%C3%A5rsm%C3%B6te.pdf" >Fullmakt_SrS_årsmöte.pdf</a>
+				</li>
+			
+				<li>
+				<a href="/klubben/blanketter/Ny_medlem.pdf" >Ny_medlem.pdf</a>
+				</li>
+			
+			</ul>
+		
+		
+		
+		
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

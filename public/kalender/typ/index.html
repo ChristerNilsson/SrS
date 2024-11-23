@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1></h1>
+
+		
+
+<a href="/">Seniorschack</a> • 
+<a href="/kalender/"></a>
+
+
+		
+		
+		<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Typ</th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">📩</td>
+          <td style="text-align: left">Inbjudan</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">🎙️</td>
+          <td style="text-align: left">Föredrag</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">📢</td>
+          <td style="text-align: left">Meddelande</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">🏅</td>
+          <td style="text-align: left">Resultat</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"></td>
+          <td style="text-align: left">Övrigt</td>
+      </tr>
+  </tbody>
+</table>
+
+	
+	</div>
+</body>
+</html>

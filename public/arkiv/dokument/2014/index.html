@@ -9,20 +9,37 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>2014</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/arkiv/">Arkiv</a> • 
 <a href="/arkiv/dokument/">Dokument</a>
 
 
-    <h1>2014</h1>
-
-    
-    
-    <p><a href="seniorstyrelse_2014.pdf">Styrelse, revisor och valberedning 2014</a></p>
+		
+		
+		<p><a href="seniorstyrelse_2014.pdf">Styrelse, revisor och valberedning 2014</a></p>
 <h2 id="klubbavgifter">Klubbavgifter</h2>
 <table>
   <thead>
@@ -56,16 +73,7 @@
 <a href="verksamhet_2014.pdf">5. Förslag till tävlingsverksamhet 2014</a><br>
 <a href="Budget_for_SrS_2014.pdf">6. Budget för 2014</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

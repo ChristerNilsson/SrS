@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>EMI</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,11 +38,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>EMI</h1>
-
-    
-    
-    <p>Elo Mass Index</p>
+		
+		
+		<p>Elo Mass Index</p>
 <p>EMI = Elo/Vikt</p>
 <table>
   <thead>
@@ -48,16 +65,7 @@
   </tbody>
 </table>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024-12</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		
+
+<a href="/">Seniorschack</a> • 
+<a href="/kalender/">Kalender</a>
+
+
+		<h1>2024-12</h1>
+
+		
+		
+		<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">November</th>
+          <th style="text-align: center">Typ</th>
+          <th style="text-align: left">Evenemang</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">03 tis</td>
+          <td style="text-align: center">🎙️</td>
+          <td style="text-align: left">Bengt Hammar - Veteran-VM o Liren-Gukesh</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">03 tis</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: left">Rond 11 för M123</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">05 tor</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: left">Rond 10 för Veteran</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">12 tor</td>
+          <td style="text-align: center"></td>
+          <td style="text-align: left">Julfest!</td>
+      </tr>
+  </tbody>
+</table>
+
+	
+	</div>
+</body>
+</html>

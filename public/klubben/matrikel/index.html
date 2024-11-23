@@ -9,32 +9,40 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Matrikel</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a>
 
 
-    <h1>Matrikel</h1>
-
-    
-    
-    <p><a href="https://www.seniorschackstockholm.se/SrS_MATRIKEL_2024_2024-03-31.pdf">PDF-format</a><br>
+		
+		
+		<p><a href="https://www.seniorschackstockholm.se/SrS_MATRIKEL_2024_2024-03-31.pdf">PDF-format</a><br>
 <a href="https://www.seniorschackstockholm.se/SrS_MATRIKEL%20_2024_2024-03-31.xlsx">Excel-format</a><br>
 <a href="https://www.seniorschackstockholm.se/Medlemsantal_SrS.pdf">Medlemsstatistik</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

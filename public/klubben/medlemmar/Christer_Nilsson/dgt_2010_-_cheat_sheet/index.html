@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>DGT 2010 - Cheat Sheet</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,11 +38,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>DGT 2010 - Cheat Sheet</h1>
-
-    
-    
-    <p><em>av Christer Nilsson</em></p>
+		
+		
+		<p><em>av Christer Nilsson</em></p>
 <table>
   <thead>
       <tr>
@@ -221,16 +238,7 @@ De bör ha konfigurerat option 3 eller 18 före tävlingen.
 <p>Redigera enligt Grund eller Grund + Bonus ovan.</p>
 <p>Håll inne ☑️ i några sekunder för att återgå till spelet.</p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

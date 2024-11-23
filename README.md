@@ -9,6 +9,8 @@ Hugokoden blev tämligen liten. 10-15 rader:
 * layouts
 	* _default
 		section.html
+	* partials
+		breadcrumbs.html (3 rader)
 	* index.html
 
 Följande element användes:
@@ -22,41 +24,43 @@ Följande element användes:
 
 ### Status
 
-* Arkiv KLAR 2024-11-23
-	* Document KLAR 2024-11-22
-	* Partier NIX
-	* PGN KLAR 2024-11-22
+* Arkiv          KLAR 2024-11-23
+	* Document   KLAR 2024-11-22
+	* Partier    NIX
+	* PGN        KLAR 2024-11-22
 	* Veckans kombinationer NIX
-	* Övrigt  KLAR 2024-11-22
+	* Övrigt     KLAR 2024-11-22
 * Externa länkar KLAR 2024-11-22
-* Inställningar 
-* Klubben KLAR 2024-11-22
+* Inställningar  KLAR 2024-11-23
+* Klubben        KLAR 2024-11-22
 	* Blanketter KLAR 2024-11-22
-	* Matrikel NIX
-	* Medlemmar KLAR 2024-11-22
-	* Webmaster KLAR 2024-11-22
-	* GDPR-info KLAR 2024-11-22
-	* Stadgar KLAR 2024-11-22
-	* Tjänster KLAR 2024-11-22
-* Kontakt  KLAR 2024-11-22
-* Program  KLAR 2024-11-22
-* Rating KLAR 2024-11-22
-* Resultat KLAR 2024-11-22
-* Webkarta KLAR 2024-11-23
-* Brödsmulor KLAR 2024-11-22
+	* Matrikel   NIX
+	* Medlemmar  KLAR 2024-11-22
+	* Webmaster  KLAR 2024-11-22
+	* GDPR-info  KLAR 2024-11-22
+	* Stadgar    KLAR 2024-11-22
+	* Tjänster   KLAR 2024-11-22
+* Kontakt        KLAR 2024-11-22
+* Program        KLAR 2024-11-22
+* Rating         KLAR 2024-11-22
+* Resultat       KLAR 2024-11-22
+* Webkarta       KLAR 2024-11-23
+* Brödsmulor     KLAR 2024-11-22
 
 ### Att Göra
 
-* Inställningar (till localStorage)
 * Kalender-hantering
-	* Troligen via normal bloghantering.
+	* Åtkomst till äldre månader ska finnas
+	* Typ ska vara klickbart.
+* Hämta markdown från github direkt, vid klick på rubrik
+* Fixa tabellbakgrund ljust tema
 
 ### Work around
 
 * Införde en Front Matter-parameter auto
 	* true: automatgenerera 
 		* Förutsätter att katalog- och filnamn är presentabla.
-	* false: skapa _index.md manuellt
+	* false: använd _index.md för att skapa länkarna
 
 ### Arbetssätt
 
@@ -67,3 +71,7 @@ Följande element användes:
 	* auto: true (ibland)
 	* ---
 * Tag bort alla .html-filer i content
+
+### Vad finns i Christers variant, men inte i Hugo?
+
+* Man kan inte klicka på rubriken och se aktuell markdown

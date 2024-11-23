@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>FairPair</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,11 +38,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>FairPair</h1>
-
-    
-    
-    <p><a href="https://christernilsson.github.io/FairPair">Turneringsprogrammet</a></p>
+		
+		
+		<p><a href="https://christernilsson.github.io/FairPair">Turneringsprogrammet</a></p>
 <p><em>FairPair har beskrivits som <strong>Flytande Berger</strong>.<br>
 Varje deltagare ligger i mitten av sin egen Bergergrupp</em></p>
 <p>FairPair är ett alternativ till Schweizer- och Berger-turneringar.<br>
@@ -128,16 +145,7 @@ Man behöver alltså inte möta spelare som är flera hundra elos starkare för 
 </li>
 </ol>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

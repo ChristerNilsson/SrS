@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Piece Square Table</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -21,11 +40,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/3_mittspel/">3 Mittspel</a>
 
 
-    <h1>Piece Square Table</h1>
-
-    
-    
-    <div class='container'>
+		
+		
+		<div class='container'>
 <div class='box'>
 <p>Genom att ge ett värde för varje pjäs på varje ruta vid varje tillfälle, kan man räkna ut värdet av en viss given ställning.</p>
 <ul>
@@ -307,16 +324,7 @@
 </div>
 </div>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

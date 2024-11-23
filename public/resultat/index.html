@@ -9,46 +9,54 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Resultat</h1>
+
+		
 
 <a href="/">Seniorschack</a>
 
 
-    <h1>Resultat</h1>
-
-    
-        
-      <ul>
-      
-      <li>
-        <a href="/resultat/individ/" >Individ</a>
-      </li>
-      
-      <li>
-        <a href="/resultat/lag/" >Lag</a>
-      </li>
-      
-      </ul>
-     
-      <ul>
-        
-      </ul>
-    
-    
-    
-    
-  
-  </div>
+		
+			
+			<ul>
+			
+			<li>
+			<a href="/resultat/individ/" >Individ</a>
+			</li>
+			
+			<li>
+			<a href="/resultat/lag/" >Lag</a>
+			</li>
+			
+			</ul>
+		
+			<ul>
+			
+			</ul>
+		
+		
+		
+		
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

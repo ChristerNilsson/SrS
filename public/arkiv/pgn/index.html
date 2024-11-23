@@ -9,19 +9,36 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1></h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/arkiv/">Arkiv</a>
 
 
-    <h1></h1>
-
-    
-    
-    <h3 id="instruktioner">Instruktioner</h3>
+		
+		
+		<h3 id="instruktioner">Instruktioner</h3>
 <ul>
 <li>Klicka på den PGN du vill ha.</li>
 <li>Den laddas då ner</li>
@@ -225,16 +242,7 @@
 <a href="Youtube_1.pgn">Youtube_1</a><br>
 <a href="Youtube_2.pgn">Youtube_2</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

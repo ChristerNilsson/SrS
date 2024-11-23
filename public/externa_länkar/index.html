@@ -9,18 +9,35 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Externa länkar</h1>
+
+		
 
 <a href="/">Seniorschack</a>
 
 
-    <h1>Externa länkar</h1>
-
-    
-    
-    <ul>
+		
+		
+		<ul>
 <li><a href="https://lichess.org/analysis">Analysera ditt parti med lichess.org</a></li>
 <li><a href="https://www.chess.com/analysis">Analysera ditt parti med chess.com</a></li>
 <li><a href="https://www.youtube.com/@AnnaCramling">Anna Cramling</a></li>
@@ -44,16 +61,7 @@
 <li><a href="https://schack.se">Sveriges Schackförbund</a></li>
 </ul>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

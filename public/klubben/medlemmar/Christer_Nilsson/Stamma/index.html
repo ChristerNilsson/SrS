@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Stamma</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -19,11 +38,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/">Christer Nilsson</a>
 
 
-    <h1>Stamma</h1>
-
-    
-    
-    <p><em>En liten berättelse om hur övergången från deskriptiv notation till algebraisk gick till.<br>
+		
+		
+		<p><em>En liten berättelse om hur övergången från deskriptiv notation till algebraisk gick till.<br>
 Samt ett litet feltänk av Stamma som kanske ledde till att hans förslag inte accepterades till 100%.</em></p>
 <p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZBtvwmZoPJEvgaGnHuivlfADwGTZxsCjjJgK-0mZ2OhxaVrDmn3qoj6jlkEMQAEqOaMVmzE6kZdGhj46LEUdS1c4X4gxk41Y-BdOEsfiTT1CsLuiMKdF7q5qdlIguYpHRM0xaYDPkV6vZ/s1600/1stamma.jpg" alt=""></p>
 <p><a href="https://en.wikipedia.org/wiki/Philipp_Stamma">Phillip Stamma</a> (Aleppo 1705-1755) konstruerade föregångaren till den algebraiska notation vi använder idag.</p>
@@ -71,16 +88,7 @@ I USA använde man ofta Kt istället för N fram till 1980.</p>
 <p><em>Frankrike gick sist av alla över 1993, 256 år efter att Stammas bok gavs ut i just det landet.</em></p>
 <p><a href="https://tartajubow.blogspot.com/2019/03/thank-you-phil-stamma.html?lr=1726509521249">Thank You, Phil Stamma</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

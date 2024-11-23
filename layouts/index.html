@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ .Title }}</title>
+	<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+	<link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}">
 </head>
 <body>
 
-  <!-- <h1>{{ .Title }}</h1> -->
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
 
-<h1>{{ .CurrentSection.Title }}</h1>
+	<h1>{{ .CurrentSection.Title }}</h1>
 
-<div> 
-<ul>
-  {{ range .CurrentSection.Sections }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-  {{ end }}
-</ul>
+	<div> 
+		<ul>
+		{{ range where .CurrentSection.Sections "Params.hidden" "!=" true}}
+			<li>
+			<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			</li>
+		{{ end }}
+		</ul>
+<!-- {{ .Content }} -->
 
-<!-- <ul>
-	{{ range .CurrentSection.Resources }}
-    <li>
-      <a href="{{ .RelPermalink }}" >{{ .Title }}</a>
-    </li>
-  {{ end }}
-</ul> -->
+<h1>Kalender</h1>
 
-{{ .Content }}
+<section>
+	{{ $now := now.Format "2006-01" }}
+	{{ range where .Site.Pages "Section" "kalender" }}
+		{{ $fileDate := slice (path.Base .File.Path) 0 7 }} <!-- Extrahera 'YYYY-MM' -->
+		{{ if ge $fileDate $now }} <!-- Visa om datumet är nuvarande eller senare -->
+			<article>
+				<h2>{{ .Title }}</h2>
+				{{ .Content }}
+			</article>
+		{{ end }}
+	{{ end }}
+</section>
 
-</div>
+	</div>
 </body>
 </html>
-

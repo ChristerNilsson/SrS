@@ -9,9 +9,28 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>3 Mittspel</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/klubben/">Klubben</a> • 
@@ -20,11 +39,9 @@
 <a href="/klubben/medlemmar/christer_nilsson/datorkalkylering/">Datorkalkylering</a>
 
 
-    <h1>3 Mittspel</h1>
-
-    
-    
-    <p><em>Datorschack består i princip av addition och subtraktion av heltal</em></p>
+		
+		
+		<p><em>Datorschack består i princip av addition och subtraktion av heltal</em></p>
 <p>Mittspelet är komplexare än öppningen och slutspelet.<br>
 Här måste alla drag genereras och ett träd genomsökas.<br>
 Att utvärdera ställningen i schack är komplicerat.<br>
@@ -69,16 +86,7 @@ Svag evaluering kan kompenseras med att söka djupare.</p>
 <a href="https://christernilsson.github.io/Lab/2019/118-Kalaha/">Kalaha</a><br>
 <a href="https://youtube.com/clip/Ugkxax12m2ISro9LvHjkgzt_ZY9GwCM0f3Vh?si=J4J9fmi1io-Wgexb">Nokia 3310</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

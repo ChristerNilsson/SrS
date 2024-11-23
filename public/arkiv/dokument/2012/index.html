@@ -9,20 +9,37 @@
 </head>
 <body>
 
-  <div>
-    
-    
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>2012</h1>
+
+		
 
 <a href="/">Seniorschack</a> • 
 <a href="/arkiv/">Arkiv</a> • 
 <a href="/arkiv/dokument/">Dokument</a>
 
 
-    <h1>2012</h1>
-
-    
-    
-    <p><a href="seniorstyrelse.pdf">Styrelse, revisor och valberedning 2012</a><br>
+		
+		
+		<p><a href="seniorstyrelse.pdf">Styrelse, revisor och valberedning 2012</a><br>
 <a href="seniorverksamhet.pdf">Verksamhet 2012</a><br>
 <a href="senioravgifter.pdf">Medlemsavgifter 2012</a><br>
 <a href="seniorbudget2012.pdf">Budget för 2012</a><br>
@@ -34,16 +51,7 @@
 <a href="SrS_Protokoll_1_mars_2012.pdf">Styrelsemöte 1:a mars 2012</a><br>
 <a href="Protokoll_SrS_2012_01_12.pdf">Styrelsemöte 12:e januari 2012</a></p>
 
-  
-  </div>
+	
+	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
