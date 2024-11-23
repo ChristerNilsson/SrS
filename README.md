@@ -56,6 +56,7 @@ Följande element användes:
 	* Kan göras med auto=false, dvs manuellt
 * Rama in rubrikraden i tabellerna
 * Skippa auto. Onödigt!
+* Webkarta
 
 ### Work around
 
