@@ -1,5 +1,5 @@
 ---
-title: "Seniorschack"
+title: "Home"
 ---
 
 <red>Julfest 12 december!</red>
