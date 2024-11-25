@@ -51,9 +51,9 @@ Följande element användes:
 
 * Kalender-hantering
 	* Åtkomst till äldre månader ska finnas
-	* Typ ska vara klickbart.
 * Hämta markdown från github direkt, vid klick på rubrik
 * Fixa tabellbakgrund ljust tema
+* Byt Seniorschack => Home
 
 ### Work around
 

@@ -71,6 +71,7 @@ sup { font-size:16px;}
 red { color: red; }
 green { color: green; }
 blue { color: blue; }
+old {color:gray}
 
 .menu ul {
 	list-style-type: none;
