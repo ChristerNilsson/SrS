@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://christernilsson.github.io/SrS/'
 languageCode = 'en-us'
 title = 'SrS'
 default_auto = false
