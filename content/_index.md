@@ -20,14 +20,14 @@ title: "Seniorschack"
 |<old>2024-11-20</old>|<old>10</old>|<old>Christer Nilsson 1601</old>|<old>1612 Bo Steiner</old>|<old>0</old>|
 |2024-12-04|11|Arne Höök 1619|1601 Christer Nilsson||
 
-### Turnering: [SrS Veteran](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_SthMVet60+_2024.pdf) • [Resultat]()
+### Turnering: [SrS Veteran](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_SthMVet60+_2024.pdf) • [Resultat](https://chess-results.com/tnr990477.aspx?lan=6&art=4)
 
-Datum|nd|Vit|Svart|Resultat|
+Datum|Rond|Vit|Svart|Resultat|
 |-|:-:|-:|-|:-:|
-|<old>2024-09-12</old>|<old>1</old>|<old>Sven-Åke Karlsson 1866</old>|<old>1533 Christer Nilsson</old>|<old>1</old>|
+|<old>2024-09-12</old>|<old>1</old>|<old>Sven-Åke Karlsson 1866</old>|<old>1533 Christer Nilsson</old>|<old>0</old>|
 |<old>2024-09-19</old>|<old>2</old>|<old>Christer Nilsson 1533</old>|<old>1779 Lars Ring</old>|<old>0</old>|
 |<old>2024-10-03</old>|<old>3</old>|<old>Vida Radon 1474</old>|<old>1533 Christer Nilsson</old>|<old>1</old>|
-|<old>2024-10-10</old>|<old>4</old>|<old>Christer Nilsson 1533</old>|<old>1823 Magnus Karlsson</old>|<old>0</old>|
+|<old>2024-10-10</old>|<old>4</old>|<old>Christer Nilsson 1533</old>|<old>1823 Magnus Karlsson</old>|<old>½</old>|
 |<old>2024-10-17</old>|<old>5</old>|<old>Dick Öhman 1691</old>|<old>1533 Christer Nilsson</old>|<old>½</old>|
 |<old>2024-10-24</old>|<old>6</old>|<old>Christer Nilsson 1533</old>|<old>1674 Lars-Erik Åberg</old>|<o>0</old>|
 |<old>2024-11-07</old>|<old>7</old>|<old>Atos Gordh 1560</old>|<old>1533 Christer Nilsson</old>|<old>1</old>|
