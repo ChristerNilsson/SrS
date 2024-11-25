@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webkarta</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Webkarta</h1>
+
+		
+
+<a href="/">Seniorschack</a>
+
+
+		
+		
+		<p>• <a href="../Arkiv">Arkiv</a><br>
+• • <a href="../Arkiv/Dokument">Dokument</a><br>
+• • <a href="../Arkiv/%C3%96vrigt">Övrigt</a><br>
+• <a href="../Externa_l%C3%A4nkar">Externa länkar</a><br>
+• <a href="../Inst%C3%A4llningar">Inställningar</a><br>
+• <a href="../Kalender">Kalender</a><br>
+• • <a href="../Kalender/Typ">Typ</a><br>
+• <a href="../Klubben">Klubben</a><br>
+• • <a href="../Klubben/Blanketter">Blanketter</a><br>
+• • <a href="../Klubben/Matrikel">Matrikel</a><br>
+• • <a href="../Klubben/Medlemmar">Medlemmar</a><br>
+• • • <a href="../Klubben/Medlemmar/Anders_Fl%C3%A4rdh">Anders Flärdh</a><br>
+• • • <a href="../Klubben/Medlemmar/Christer_Nilsson">Christer Nilsson</a><br>
+• • <a href="../Klubben/Styrelse">Styrelse</a><br>
+• • <a href="../Klubben/Webmaster">Webmaster</a><br>
+• <a href="../Kontakt">Kontakt</a><br>
+• <a href="../Program">Program</a><br>
+• • <a href="../Program/Schacktr%C3%A4ning">Schackträning</a><br>
+• • <a href="../Program/Seniorserien">Seniorserien</a><br>
+• <a href="../Rating">Rating</a><br>
+• <a href="../Resultat">Resultat</a><br>
+• • <a href="../Resultat/Individ">Individ</a><br>
+• • <a href="../Resultat/Lag">Lag</a></p>
+
+	
+	</div>
+</body>
+</html>

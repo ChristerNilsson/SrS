@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klubben</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Klubben</h1>
+
+		
+
+<a href="/">Seniorschack</a>
+
+
+		
+		
+		<p><a href="Blanketter">Blanketter</a><br>
+<a href="GDPR_info.pdf">GDPR info</a><br>
+<a href="Matrikel">Matrikel</a><br>
+<a href="Medlemmar">Medlemmar</a><br>
+<a href="Stadgar.pdf">Stadgar</a><br>
+<a href="Styrelse">Styrelse</a><br>
+<a href="Tj%C3%A4nster.pdf">Tjänster</a><br>
+<a href="Webmaster">Webmaster</a></p>
+
+	
+	</div>
+</body>
+</html>

@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'SrS'
 default_auto = false
+publishDir = "docs"
 
 [markup]
   [markup.goldmark]
