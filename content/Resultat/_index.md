@@ -1,4 +1,0 @@
----
-title: "Resultat"
-auto: true
----
