@@ -36,23 +36,8 @@
 			</li>
 		{{ end }}
 		</ul>
-<!-- {{ .Content }} -->
 
-<h1>Kalender</h1>
-
-<section>
-	{{ $now := now.Format "2006-01" }}
-	{{ range where .Site.Pages "Section" "kalender" }}
-		{{ $fileDate := path.Base .File.Path}}
-		{{ $fileDate := substr $fileDate 0 7 }} 
-		{{ if ge $fileDate $now }} 
-			<article>
-				<h2>{{ .Title }}</h2>
-				{{ .Content }}
-			</article>
-		{{ end }}
-	{{ end }}
-</section>
+{{ .Content }}
 
 	</div>
 </body>
