@@ -1,4 +1,4 @@
-baseURL = 'https://christernilsson.github.io/SrS/'
+baseURL = 'https://christernilsson.github.io/srs/'
 languageCode = 'en-us'
 title = 'SrS'
 default_auto = false

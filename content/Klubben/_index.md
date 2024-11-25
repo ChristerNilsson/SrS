@@ -2,11 +2,11 @@
 title: "Klubben"
 ---
 
-[Blanketter](Blanketter)  
-[GDPR info](GDPR_info.pdf)  
-[Matrikel](Matrikel)  
-[Medlemmar](Medlemmar)  
-[Stadgar](Stadgar.pdf)  
-[Styrelse](Styrelse)  
-[Tjänster](Tjänster.pdf)  
-[Webmaster](Webmaster)  
+[Blanketter](blanketter)  
+[GDPR info](gdpr-info.pdf)  
+[Matrikel](matrikel)  
+[Medlemmar](medlemmar)  
+[Stadgar](stadgar.pdf)  
+[Styrelse](styrelse)  
+[Tjänster](tjänster.pdf)  
+[Webmaster](webmaster)  

@@ -46,7 +46,7 @@ Datum|Rond|Bord|Färg|Motståndare|Res|
 |<old>2024-10-30</old>|<old>10+5</old>|<old>FP</old>|<d>[FairPair 2](https://www.seniorschackstockholm.se/htmfiler/FairPair_Inbjudan_2.pdf)</old>|
 |<old>2024-11-24</old>|<old>10+5</old>|<old>Swiss</old>|<old>[Gunnar Bergs minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gunnar_Bergs_Minnesturnering_2024.pdf)</old>|
 |<old>2024-11-24</old>|<old>15+5</old>|<old>Swiss</old>|<old>[Göstas minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gostas_minnesturnering_2024.pdf)</old>|
-|2024-11-27|10+5|FP|[FairPair 3](Kalender/FairPair_-_Inbjudan_3.pdf)|### Föreläsningar • tisdagar 10-12 • Salongerna
+|2024-11-27|10+5|FP|[FairPair 3](kalender/fairpair-inbjudan-3.pdf)|
 
 ### Föreläsningar • tisdagar 10-12 • Salongerna
 
@@ -58,7 +58,7 @@ Datum|Rond|Bord|Färg|Motståndare|Res|
 |<old>2024-10-01</old>|<old>Gunnar Hedin - Zandor Nilsson - Självförtroende i världsklass</old>|
 |<old>2024-10-08</old>|<old>Per-Ove Hesselborn - Kalkylering del 3</old>|
 |<old>2024-10-15</old>|<old>Per Söderberg - Schackfilateli</old>|
-|<old>2024-10-22</old>|<old>[Christer Nilsson - Datorkalkylering](../../Xperiment/Föredrag/Datorkalkylering)</old>|
+|<old>2024-10-22</old>|<old>[Christer Nilsson - Datorkalkylering](../../xperiment/föredrag/datorkalkylering)</old>|
 |<old>2024-10-29</old>|<old>Per-Ove Hesselborn - Kalkylering del 4</old>|
 |<old>2024-11-05</old>|<old>Bengt Hammar - New York 1924 - del 1</old>|
 |<old>2024-11-12</old>|<old>Bengt Hammar - New York 1924 - del 2</old>|

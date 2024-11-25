@@ -2,8 +2,8 @@
 title: "Arkiv"
 ---
 
-[Dokument](Dokument)  
-[PGN](PGN)  
+[Dokument](dokument)  
+[PGN](pgn)  
 [Äldre hemsida](https://www.seniorschackstockholm.se)  
 [Äldre hemsida - Sök](https://www.google.com/search?q=site:seniorschackstockholm.se)  
-[Övrigt](Övrigt)  
+[Övrigt](övrigt)  
