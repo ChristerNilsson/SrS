@@ -56,6 +56,25 @@ eftersom de nu är tio spelare, dvs jämnt antal. (CN)
 3. Om oratade bara spelar med andra oratade, får de aldrig någon rating. (CN)
 4. Det blir fler remier om jämnare spelare möts. (CN)
 
+#### Varför sorterar Schweizer och FairPair olika ibland?
+
+Det beror på att Schweizer använder grövre metoder.
+
+#### Vilka är dessa grövre metoder?
+
+1. I Schweizer är en vinst alltid exakt en poäng oavsett om man slagit den bäste eller den sämste
+	* FairPair tar hänsyn till motståndarnas elo när PR beräknas
+
+2. Schweizer lottar fram ojämna partier med stor elo-skillnad
+	* FairPair lottar fram partier där chansen att vinna ligger så nära 50% som möjligt
+		*   0 => 50% chans att vinna för den bättre spelaren
+		* 100 => 64%
+		* 200 => 76%
+		* 300 => 85%
+		* 400 => 91%
+		* 500 => 95%
+		* 600 => 97%
+
 #### Schweizer (78 spelare)
 
 Starkaste spelaren längst upp till vänster. Cellerna indikerar rondnummer.  
@@ -78,21 +97,3 @@ En turnering med sju ronder kan alltså ge en ökning på 58 elo.
 7 av 7 (=100%) mot lika starka spelare, ger 7 * 20 = 140 elo.  
 Man behöver alltså inte möta spelare som är flera hundra elos starkare för att avancera snabbt.
 
-#### Varför sorterar Schweizer och FairPair olika ibland?
-
-Det beror på att Schweizer använder grövre metoder.
-
-#### Vilka är dessa grövre metoder?
-
-1. I Schweizer är en vinst alltid exakt en poäng oavsett om man slagit den bäste eller den sämste
-	* FairPair tar hänsyn till motståndarnas elo när PR beräknas
-
-2. Schweizer lottar fram ojämna partier med stor elo-skillnad
-	* FairPair lottar fram partier där chansen att vinna ligger så nära 50% som möjligt
-		*   0 => 50% chans att vinna för den bättre spelaren
-		* 100 => 64%
-		* 200 => 76%
-		* 300 => 85%
-		* 400 => 91%
-		* 500 => 95%
-		* 600 => 97%

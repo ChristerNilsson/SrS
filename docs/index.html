@@ -5,15 +5,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Seniorschack</title>
-	<link rel="stylesheet" href="/SrS/css/style.css">
-	<link rel="stylesheet" href="/SrS/css/styles.css">
+	<link id="theme-stylesheet" rel="stylesheet" href="/SrS/css/dark.css">
+	
   </head>
 <body>
 
 	<script>
+		function applyTheme(theme) {
+			const link = document.getElementById('theme-stylesheet');
+			link.href = `\/SrS\/css\/\u0024\u007btheme\u007d.css`;
+		}
 		function setStorage(key,value){
 			document.body.setAttribute(key, value);
 			localStorage.setItem(key, value);
+			
 		}
 		function setDefault(key,value) {
 			if (localStorage.getItem(key) == null) {
@@ -263,7 +268,7 @@
       </tr>
   </tbody>
 </table>
-<p><old>Uppdaterad: 2024-11-26 15:31 </old></p>
+<p><old>Uppdaterad: 2024-11-26 20:42 </old></p>
 <!-- ### Turnering: [SrS Klass 2](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_seniorserien_h%C3%B6sten_2024.pdf) • [Resultat](https://member.schack.se/ShowTournamentServlet?id=14509) -->
 <!-- <iframe src="https://member.schack.se/ShowTournamentServlet?id=14509" title="description" width=1020 height=600></iframe> -->
 <!-- |Datum|Rond|Bord|Färg|Motståndare|Res|
