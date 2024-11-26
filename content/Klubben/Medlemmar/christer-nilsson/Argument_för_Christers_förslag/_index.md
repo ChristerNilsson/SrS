@@ -2,7 +2,7 @@
 title: "Argument för Christers förslag"
 ---
 
-https://christernilsson.github.io/Seniorschack
+[christernilsson.github.io/SrS](https://christernilsson.github.io/SrS)
 
 ### Målsättning
 

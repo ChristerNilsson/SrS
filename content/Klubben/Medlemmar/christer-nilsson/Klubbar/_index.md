@@ -26,8 +26,8 @@ title: "Klubbar"
 |1316|-|R|-|-|W|M|B| 15|[Vallentuna SK](https://vallentunaschack.se)|
 |   -|-|-|-|-|-|-|-| 21|Södra SASS|
 |   -|-|-|-|-|-|-|-| 16|Nynäs SK|
-|1550|-|R|-|-|W|M|B| 15|[Roslagens Webbyrå](https://roslagenswebbyra.se/)|
-|2123|-|R|-|-|W|M|B| 15|[SS Gambit](https://ssgambit.se/)|
+|2123|-|R|-|-|W|M|B| 32|[SS Gambit](https://ssgambit.se/)|
+|1550|-|R|-|-|W|M|B|   |[Roslagens Webbyrå](https://roslagenswebbyra.se/)|
 
 ms = svarstider i millisekunder  
 T = menyträd, webkarta  
