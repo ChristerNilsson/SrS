@@ -44,14 +44,13 @@ title: "Home"
 |<old>2024-10-01</old>|<old>Gunnar Hedin - Zandor Nilsson - Självförtroende i världsklass</old>|
 |<old>2024-10-08</old>|<old>Per-Ove Hesselborn - Kalkylering del 3</old>|
 |<old>2024-10-15</old>|<old>Per Söderberg - Schackfilateli</old>|
-|<old>2024-10-22</old>|<old>[Christer Nilsson - Datorkalkylering](../../xperiment/föredrag/datorkalkylering)</old>|
+|<old>2024-10-22</old>|<old>[Christer Nilsson - Datorkalkylering](klubben/medlemmar/christer-nilsson/datorkalkylering/)</old>|
 |<old>2024-10-29</old>|<old>Per-Ove Hesselborn - Kalkylering del 4</old>|
 |<old>2024-11-05</old>|<old>Bengt Hammar - New York 1924 - del 1</old>|
 |<old>2024-11-12</old>|<old>Bengt Hammar - New York 1924 - del 2</old>|
 |2024-12-03|Bengt Hammar - Veteran-VM o Liren-Gukesh|
 
 <old>Uppdaterad: {{< now >}}</old>
-
 
 <!-- ### Turnering: [SrS Klass 2](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_seniorserien_h%C3%B6sten_2024.pdf) • [Resultat](https://member.schack.se/ShowTournamentServlet?id=14509) -->
 

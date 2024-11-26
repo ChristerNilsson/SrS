@@ -2,7 +2,7 @@
 
 * Klicka på den PGN du vill ha.
 * Den laddas då ner
-* Kopiera innehållet och klista in i Lichess
+* Kopiera innehållet och klistra in i Lichess
 * Eller hämta filen inifrån Lichess
 * [Lichess](https://lichess.org/paste)
 * Vill du få med kommentarerna => använd en studie.
