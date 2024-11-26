@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/SrS/arkiv/pgn/</loc>
-  </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/argument_f%C3%B6r_christers_f%C3%B6rslag/case/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/program/klubbm%C3%A4sterskap/</loc>
@@ -90,11 +88,15 @@
   </url><url>
     <loc>http://localhost:1313/SrS/arkiv/%C3%B6vrigt/</loc>
   </url><url>
+    <loc>http://localhost:1313/SrS/arkiv/partier/</loc>
+  </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/partier/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/performance_calculator/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/performance_calculators/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SrS/arkiv/pgn/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/datorkalkylering/3_mittspel/piece_square_table/</loc>
   </url><url>

@@ -23,11 +23,9 @@ title: "Home"
 
 ### Inbjudningar
 
-
-
 |Datum|Tid|Typ|Inbjudan|
 |:-:|:-:|:-:|-|
-|<green>2024-11-27|10+5|FairPair|[FairPair 3](kalender/fairpair-inbjudan-3.pdf)|
+|<new>2024-11-27|10+5|FairPair|[FairPair 3](kalender/fairpair-inbjudan-3.pdf)|
 |2024-11-24|15+5|Swiss|[Göstas minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gostas_minnesturnering_2024.pdf)|
 |2024-11-24|10+5|Swiss|[Gunnar Bergs minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gunnar_Bergs_Minnesturnering_2024.pdf)|
 |2024-10-30|10+5|FairPair|<d>[FairPair 2](https://www.seniorschackstockholm.se/htmfiler/FairPair_Inbjudan_2.pdf)|
@@ -40,7 +38,7 @@ title: "Home"
 
 |Datum|Föreläsning|
 |-|-|
-|<green>2024-12-03|Bengt Hammar - Veteran-VM o Liren-Gukesh|
+|<new>2024-12-03|Bengt Hammar - Veteran-VM o Liren-Gukesh|
 |2024-11-12|Bengt Hammar - New York 1924 - del 2|
 |2024-11-05|Bengt Hammar - New York 1924 - del 1|
 |2024-10-29|Per-Ove Hesselborn - Kalkylering del 4|

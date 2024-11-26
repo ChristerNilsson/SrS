@@ -1,3 +1,5 @@
+[Try it!](https://christernilsson.github.io/SrS/)
+
 # Flytt från Seniorschack till Hugo
 
 Originalet utvecklat av mig.  
