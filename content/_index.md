@@ -4,16 +4,23 @@ title: "Home"
 
 <red>Julfest 12 december!</red>
 
-### Turneringar
+### Berger-turneringar • onsdagar 11-15 • 90+30 • Salongerna
 
-|Individ|Tid|Typ|
-|-|:-:|:-:|
-|[Klass M]({{< tour 14507 >}})|90+30|Berger|
-|[Klass 1]({{< tour 14508 >}})|90+30|Berger|
-|[Klass 2]({{< tour 14509 >}})|90+30|Berger|
-|[Klass 3]({{< tour 14510 >}})|90+30|Berger|
-|[Klass 4]({{< tour 14512 >}})|90+30|Berger|
-|[Veteran 60+](https://chess-results.com/tnr990477.aspx?lan=6)|90+30|Swiss|
+|Individ|
+|-|
+|[Klass M]({{< tour 14507 >}})|
+|[Klass 1]({{< tour 14508 >}})|
+|[Klass 2]({{< tour 14509 >}})|
+|[Klass 3]({{< tour 14510 >}})|
+|[Klass 4]({{< tour 14512 >}})|
+
+### Schweizer-turnering • torsdagar 11-15 • 90+30 • Salongerna
+
+|Individ|
+|-|
+|[Veteran 60+](https://chess-results.com/tnr990477.aspx?lan=6)|
+
+### Lagturneringar
 
 |Lag|Tid|Typ|
 |-|:-:|:-:|

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/SrS/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=SrS/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seniorserien</title>
+  <link rel="stylesheet" href="/SrS/css/style.css">
+  <link rel="stylesheet" href="/SrS/css/styles.css">
+</head>
+<body>
+
+	<script>
+		function setStorage(key,value){
+			document.body.setAttribute(key, value);
+			localStorage.setItem(key, value);
+		}
+		function setDefault(key,value) {
+			if (localStorage.getItem(key) == null) {
+				setStorage(key,value)
+			} else {
+				setStorage(key, localStorage.getItem(key))
+			}
+		}
+		setDefault('theme','dark')
+		setDefault('fontsize','20px')
+		setDefault('font','Helvetica')
+	</script>
+
+	<div>
+	
+		<h1>Seniorserien</h1>
+
+		
+
+<a href="/SrS/">Home</a> • 
+<a href="/SrS/program/">Program</a>
+
+
+		
+		
+		<p><a href="Anmalda_HT24.pdf">Anmälda</a><br>
+<a href="Inbjudan_seniorserien_h%C3%B6sten_2024.pdf">Inbjudan</a></p>
+
+	
+	</div>
+</body>
+</html>

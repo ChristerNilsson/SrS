@@ -1,5 +1,5 @@
 baseURL = 'https://christernilsson.github.io/SrS/'
-languageCode = 'en-us'
+languageCode = 'sv-se'
 title = 'SrS'
 default_auto = false
 publishDir = "docs"
