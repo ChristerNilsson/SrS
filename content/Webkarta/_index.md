@@ -4,6 +4,11 @@ title: "Webkarta"
 
 • [Arkiv](../arkiv)  
 • • [Dokument](../arkiv/dokument)  
+• • [Partier](../arkiv/partier)  
+• • [PGN](../arkiv/pgn)  
+• • [Resultat i Seniorschack Stockholm](../arkiv/resultat-i-seniorschack-stockholm)  
+• • [Resultat i snabbschack och blixt](../arkiv/resultat-i-snabbschack-och-blixt)  
+• • [Veckans kombination](../arkiv/veckans-kombination)  
 • • [Övrigt](../arkiv/övrigt)  
 • [Externa länkar](../externa-länkar)  
 • [Inställningar](../inställningar)  

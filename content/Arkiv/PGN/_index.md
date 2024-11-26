@@ -1,3 +1,7 @@
+---
+title: "PGN"
+---
+
 ### Instruktioner
 
 * Klicka på den PGN du vill ha.

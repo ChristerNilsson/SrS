@@ -18,10 +18,10 @@ title: "Inställningar"
 	}
 </script>
 
-### Tema
+<!-- ### Tema -->
 
-<a onclick="setStorage('theme','light')">Ljust</a>  
-<a onclick="setStorage('theme','dark')">Mörkt</a>  
+<!-- <a onclick="setStorage('theme','light')">Ljust</a>   -->
+<!-- <a onclick="setStorage('theme','dark')">Mörkt</a>   -->
 
 ### Font
 
