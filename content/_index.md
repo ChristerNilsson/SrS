@@ -4,29 +4,17 @@ title: "Home"
 
 <red>Julfest 12 december!</red>
 
-### Berger-turneringar • onsdagar 11-15 • 90+30 • Salongerna
+### Turneringar • 11-15 • 90+30 • Salongerna
 
-|Individ|
-|-|
-|[Klass M]({{< tour 14507 >}})|
-|[Klass 1]({{< tour 14508 >}})|
-|[Klass 2]({{< tour 14509 >}})|
-|[Klass 3]({{< tour 14510 >}})|
-|[Klass 4]({{< tour 14512 >}})|
+|[Klass M]({{< tour 14507 >}})|[Klass 1]({{< tour 14508 >}})|[Klass 2]({{< tour 14509 >}})|[Klass 3]({{< tour 14510 >}})|[Klass 4]({{< tour 14512 >}})|[Veteran 60+](https://chess-results.com/tnr990477.aspx?lan=6)|
+|-|-|-|-|-|-|
+|Berger|Berger|Berger|Berger|Berger|Schweizer|
+|ons|ons|ons|ons|ons|tors|
 
-### Schweizer-turnering • torsdagar 11-15 • 90+30 • Salongerna
+### Lagturneringar • 90+30 • Salongerna
 
-|Individ|
-|-|
-|[Veteran 60+](https://chess-results.com/tnr990477.aspx?lan=6)|
-
-### Lagturneringar
-
-|Lag|Tid|Typ|
-|-|:-:|:-:|
-|[Allsvenskan]({{< tour 14266 >}})|90+30|Berger|
-|[Stockholmsserien]({{< tour 14744 >}})|90+30|Berger|
-|[Lag-DM]({{< tour 14562 >}})|90+30|Berger|
+|[Allsvenskan]({{< tour 14266 >}})|[Stockholmsserien]({{< tour 14744 >}})|[Lag-DM]({{< tour 14562 >}})|
+|-|-|-|
 
 ### Inbjudningar
 
