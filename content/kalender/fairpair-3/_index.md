@@ -1,4 +1,6 @@
-# FairPair 3 
+---
+title: "FairPair 3"
+---
 
 2024-11-27  
 
