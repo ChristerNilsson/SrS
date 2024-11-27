@@ -47,39 +47,3 @@ title: "Home"
 |2024-09-10|Per-Ove Hesselborn - Kalkylering del 1|
 
 <old>Uppdaterad: {{< now >}} </old>
-
-<!-- ### Turnering: [SrS Klass 2](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_seniorserien_h%C3%B6sten_2024.pdf) • [Resultat](https://member.schack.se/ShowTournamentServlet?id=14509) -->
-
-<!-- <iframe src="https://member.schack.se/ShowTournamentServlet?id=14509" title="description" width=1020 height=600></iframe> -->
-
-<!-- |Datum|Rond|Bord|Färg|Motståndare|Res|
-|:-:|:-:|:-:|:-:|-|:-:|
-|<old>2024-09-04|<old>1|<old>2|<old>V|<old>1603 Anders Franzén|<old>½|
-|<old>2024-09-11|<old>2|<old>3|<old>S|<old>1607 Lars-Ivar Juntti|<old>0|
-|<old>2024-09-18|<old>3|<old>4|<old>V|<old>1595 Leif Hållstedt|<old>0|
-|<old>2024-10-02|<old>4|<old>5|<old>S|<old>1630 Heinz Schmidt|<old>½|
-|<old>2024-10-09|<old>5|<old>6|<old>V|<old>w.o.|<old>0|
-|<old>2024-10-16|<old>6|<old>5|<old>V|<old>1585 Jouko Liistamo|<old>1|
-|<old>2024-10-23|<old>7|<old>4|<old>S|<old>1624 Maria Elkan|<old>1|
-|<old>2024-11-06|<old>8|<old>3|<old>V|<old>1637 Miroljub Zivic|<old>1|
-|<old>2024-11-13|<old>9|<old>2|<old>S|<old>1619 Jonas Hök|<old>1|
-|<old>2024-11-20|<old>10|<old>1|<old>V|<old>1612 Bo Steiner|<old>0|
-|2024-12-04|11|1|S|1619 Arne Höök|0 w.o| -->
-
-<!-- ### Turnering: [SrS Veteran](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_SthMVet60+_2024.pdf) • [Resultat](https://chess-results.com/tnr990477.aspx?lan=6&art=4)
-
-<iframe src="https://chess-results.com/tnr990477.aspx?lan=6&art=3" title="description" width=1020 height=600></iframe> -->
-
-<!-- Datum|Rond|Bord|Färg|Motståndare|Res|
-|:-:|:-:|:-:|:-:|-|:-:|
-|<old>2024-09-12|<old>1|<old>19|<old>S|<old>1866 Sven-Åke Karlsson|<old>0|
-|<old>2024-09-19|<old>2|<old>17|<old>V|<old>1779 Lars Ring|<old>0|
-|<old>2024-10-03|<old>3|<old>22|<old>S|<old>1474 Vida Radon|<old>1|
-|<old>2024-10-10|<old>4|<old>14|<old>V|<old>1823 Magnus Karlsson|<old>½|
-|<old>2024-10-17|<old>5|<old>17|<old>S|<old>1691 Dick Öhman|<old>½|
-|<old>2024-10-24|<old>6|<old>15|<old>V|<old>1674 Lars-Erik Åberg|<old>0|
-|<old>2024-11-07|<old>7|<old>19|<old>S|<old>1560 Atos Gordh|<old>1|
-|<old>2024-11-14|<old>8|<old>13|<old>V|<old>1795 Onni Aikio|<old>0|
-|<old>2024-11-21|<old>9|<old>18|<old>V|<old>1713 Lars Johansson|<old>1|
-|2024-12-05|10||||| -->
-
