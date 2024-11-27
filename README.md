@@ -28,9 +28,9 @@ Följande element användes:
 
 * Arkiv          KLAR 2024-11-23
 	* Document   KLAR 2024-11-22
-	* Partier    NIX
+	* Partier    KLAR 2024-11-26
 	* PGN        KLAR 2024-11-22
-	* Veckans kombinationer NIX
+	* Veckans kombinationer KLAR 2024-11-26
 	* Övrigt     KLAR 2024-11-22
 * Externa länkar KLAR 2024-11-22
 * Inställningar  KLAR 2024-11-23
@@ -51,11 +51,7 @@ Följande element användes:
 
 ### Att Göra
 
-* Kalender-hantering
-	* Åtkomst till äldre månader ska finnas
 * Hämta markdown från github direkt, vid klick på rubrik
-* Fixa tabellbakgrund ljust tema
-* Byt Seniorschack => Home
 
 ### Work around
 
@@ -72,7 +68,8 @@ Följande element användes:
 	* title: "Arkiv"
 	* auto: true (ibland)
 	* ---
-* Tag bort alla .html-filer i content
+* Tag bort alla .html och .htm-filer i content
+	* htm kan ligga i static/htm
 
 ### Vad finns i Christers variant, men inte i Hugo?
 
