@@ -8,22 +8,14 @@
   {{ $styles := resources.Get "styles.sass" | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
-  <!-- <link rel="stylesheet" href="/SrS/css/style.css"> -->
-  <!-- <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}"> -->
 </head>
 <body>
 
 	<script>
 
-		// function applyTheme(theme) {
-		// 	const link = document.getElementById('theme-stylesheet');
-		// 	link.href = `{{ "css/${theme}.css" | relURL }}`;
-		// }		
-
 		function setStorage(key,value){
 			document.body.setAttribute(key, value);
 			localStorage.setItem(key, value);
-			// if (key == 'theme') applytheme(value)
 		}
 		function setDefault(key,value) {
 			if (localStorage.getItem(key) == null) {
