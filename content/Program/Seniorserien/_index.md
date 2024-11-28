@@ -1,5 +1,5 @@
 ---
-title: "Seniorserien"
+title: Seniorserien
 ---
 
 [Anmälda](Anmalda_HT24.pdf)  

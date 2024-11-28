@@ -1,4 +1,4 @@
 ---
-title: "Datorkalkylering"
+title: Datorkalkylering
 auto: true
 ---

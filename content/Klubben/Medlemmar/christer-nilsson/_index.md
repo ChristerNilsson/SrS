@@ -1,5 +1,5 @@
 ---
-title: "Christer Nilsson"
+title: Christer Nilsson
 auto: true
 ---
 

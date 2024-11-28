@@ -1,5 +1,5 @@
 ---
-title: "Matrikel"
+title: Matrikel
 ---
 
 [PDF-format](https://www.seniorschackstockholm.se/SrS_MATRIKEL_2024_2024-03-31.pdf)  

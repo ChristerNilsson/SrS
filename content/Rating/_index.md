@@ -1,5 +1,5 @@
 ---
-title: "Rating"
+title: Rating
 club : "https://member.schack.se/ShowClubRatingServlet?clubid"
 ---
 

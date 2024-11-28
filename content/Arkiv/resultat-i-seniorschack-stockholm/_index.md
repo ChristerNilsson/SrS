@@ -1,5 +1,5 @@
 ---
-title: "Resultat i Seniorschack Stockholm"
+title: Resultat i Seniorschack Stockholm
 ---
 
 | År| Segrare | Resultat |

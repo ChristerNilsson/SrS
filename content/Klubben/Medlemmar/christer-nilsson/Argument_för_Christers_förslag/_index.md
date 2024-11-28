@@ -1,5 +1,5 @@
 ---
-title: "Argument för Christers förslag"
+title: Argument för Christers förslag
 ---
 
 [christernilsson.github.io/SrS](https://christernilsson.github.io/SrS)

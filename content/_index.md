@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: Home
 ---
 
 <red>Julfest 12 december!</red>
@@ -20,12 +20,12 @@ title: "Home"
 
 |Datum|Tid|Typ|Inbjudan|
 |:-:|:-:|:-:|-|
-|<new>2024-11-27|10+5|FairPair|[FairPair 3](kalender/fairpair-inbjudan-3.pdf) • [Resultat](kalender/fairpair-3)|
+|<new>2024-11-27|10+5|FairPair|[FairPair 3](resultat/fairpair-inbjudan-3.pdf) • [Resultat](resultat/fairpair-3)|
 |2024-11-24|15+5|Swiss|[Göstas minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gostas_minnesturnering_2024.pdf)|
 |2024-11-24|10+5|Swiss|[Gunnar Bergs minnesturnering](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_Gunnar_Bergs_Minnesturnering_2024.pdf)|
-|2024-10-30|10+5|FairPair|[FairPair 2](https://www.seniorschackstockholm.se/htmfiler/FairPair_Inbjudan_2.pdf) • [Resultat](kalender/2024-10-30.pdf)|
+|2024-10-30|10+5|FairPair|[FairPair 2](https://www.seniorschackstockholm.se/htmfiler/FairPair_Inbjudan_2.pdf) • [Resultat](resultat/2024-10-30.pdf)|
 |2024-10-27|3+2|Swiss|[Lag-DM i Blixt](https://www.stockholmsschack.se/wp-content/uploads/2024/07/Inbjudan_Lag_DM_blixt_2024.pdf)|
-|2024-09-25|10+5|FairPair|[FairPair 1](kalender/fairpair-inbjudan-1.txt) • [Resultat](kalender/fairpair-resultat-1.png)|
+|2024-09-25|10+5|FairPair|[FairPair 1](kalender/fairpair-inbjudan-1.txt) • [Resultat](resultat/fairpair-resultat-1.png)|
 |2024-09-15|15+5|Swiss|[Stockholmsmästerskap i Snabbschack](https://www.stockholmsschack.se/wp-content/uploads024/07/Inbjudan_Stockholmsmasterskapet_i_Snabbschack_2024.pdf)|
 |2024-09-12|90+30|Swiss|[Stockholmsmästerskap Veteran 60+ 2024](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_SthMVet60+_2024.pdf)|
 |2024-09-12|90+30|Berger|[Seniorserien](https://www.seniorschackstockholm.se/htmfiler/Inbjudan_seniorserien_h%C3%B6sten_2024.pdf)|

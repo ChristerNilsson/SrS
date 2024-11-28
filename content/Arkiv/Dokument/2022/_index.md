@@ -1,5 +1,5 @@
 ---
-title: "2022"
+title: 2022
 ---
 
 [Förtroendevalda för verksamhetsåret 2022](SrS_Förtroendevalda_2022.pdf)

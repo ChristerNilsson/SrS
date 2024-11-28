@@ -1,5 +1,5 @@
 ---
-title: "2016"
+title: 2016
 ---
 [Styrelse, revisor och valberedning 2016](seniorstyrelse_2016.pdf)
 ## Klubbavgifter

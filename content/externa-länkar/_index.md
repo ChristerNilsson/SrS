@@ -1,5 +1,5 @@
 ---
-title: "Externa länkar"
+title: Externa länkar
 ---
 
 * [Analysera ditt parti med lichess.org](https://lichess.org/analysis)  

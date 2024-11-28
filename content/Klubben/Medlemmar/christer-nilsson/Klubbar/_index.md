@@ -1,5 +1,5 @@
 ---
-title: "Klubbar"
+title: Klubbar
 ---
 
 |  ms|T|R|P|S|W|M|B|N|Klubb|

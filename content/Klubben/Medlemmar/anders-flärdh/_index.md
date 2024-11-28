@@ -1,5 +1,5 @@
 ---
-title: "Anders Flärdh"
+title: Anders Flärdh
 ---
 
 Född: 1945-08-23

@@ -1,5 +1,5 @@
 ---
-title: "EMI"
+title: EMI
 ---
 
 Elo Mass Index

@@ -1,5 +1,5 @@
 ---
-title: "2017"
+title: 2017
 ---
 [Styrelse, tävlingskommitté, revisor och valberedning 2017](seniorstyrelse_2017.pdf)
 

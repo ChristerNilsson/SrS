@@ -1,5 +1,5 @@
 ---
-title: "Minimax"
+title: Minimax
 ---
 
 * A

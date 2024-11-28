@@ -1,5 +1,5 @@
 ---
-title: "Presentation"
+title: Presentation
 ---
 
 Född: 1954-12-19  

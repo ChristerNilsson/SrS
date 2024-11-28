@@ -1,5 +1,5 @@
 ---
-title: "Miroljub Zivic"
+title: Miroljub Zivic
 ---
 
 [Sveriges Schackförbund](https://member.schack.se/ViewPlayerRatingDiagram?memberid=408873)

@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/SrS/program/klubbm%C3%A4sterskap/</loc>
   </url><url>
+    <loc>http://localhost:1313/SrS/resultat/</loc>
+  </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/datorkalkylering/1_spel%C3%B6ppning/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/datorkalkylering/2_slutspel/</loc>
@@ -66,13 +68,11 @@
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/fairpair/</loc>
   </url><url>
-    <loc>http://localhost:1313/SrS/kalender/fairpair-3/</loc>
+    <loc>http://localhost:1313/SrS/resultat/fairpair-3/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/inst%C3%A4llningar/</loc>
-  </url><url>
-    <loc>http://localhost:1313/SrS/kalender/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/klubbar/</loc>
   </url><url>

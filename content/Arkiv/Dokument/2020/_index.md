@@ -1,5 +1,5 @@
 ---
-title: "2020"
+title: 2020
 ---
 
 [Styrelse, tävlingskommitté, revisor och valberedning 2020](seniorstyrelse_2020.pdf)

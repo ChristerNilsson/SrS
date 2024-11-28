@@ -1,5 +1,5 @@
 ---
-title: "Klubben"
+title: Klubben
 ---
 
 [Blanketter](blanketter)  

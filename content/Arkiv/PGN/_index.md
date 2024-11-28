@@ -1,5 +1,5 @@
 ---
-title: "PGN"
+title: PGN
 ---
 
 ### Instruktioner

@@ -1,5 +1,5 @@
 ---
-title: "Medlemmar"
+title: Medlemmar
 auto: true
 ---
 

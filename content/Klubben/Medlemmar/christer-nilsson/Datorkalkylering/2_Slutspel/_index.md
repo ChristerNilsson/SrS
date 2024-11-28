@@ -1,5 +1,5 @@
 ---
-title: "2 Slutspel"
+title: 2 Slutspel
 ---
 
 Slutspel kan hanteras utan trädsökning med upp till sju pjäser.  

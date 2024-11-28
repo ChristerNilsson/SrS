@@ -1,5 +1,5 @@
 ---
-title: "Kontakt"
+title: Kontakt
 BB2: "https://storage.googleapis.com/bildbank2/index.html?md5"
 ---
 

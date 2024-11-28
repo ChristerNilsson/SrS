@@ -1,5 +1,5 @@
 ---
-title: "2012"
+title: 2012
 ---
 [Styrelse, revisor och valberedning 2012](seniorstyrelse.pdf)  
 [Verksamhet 2012](seniorverksamhet.pdf)  

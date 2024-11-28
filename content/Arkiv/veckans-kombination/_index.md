@@ -1,5 +1,5 @@
 ---
-title: "Veckans kombination"
+title: Veckans kombination
 ---
 
 Testa om du kan hitta rätt drag i nedanstående kombinationer!

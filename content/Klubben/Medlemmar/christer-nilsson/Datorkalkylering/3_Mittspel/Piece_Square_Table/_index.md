@@ -1,5 +1,5 @@
 ---
-title: "Piece Square Table"
+title: Piece Square Table
 ---
 
 <div class='container'>

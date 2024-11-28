@@ -1,5 +1,5 @@
 ---
-title: "FairPair"
+title: FairPair
 ---
 
 [Turneringsprogrammet](https://christernilsson.github.io/FairPair)

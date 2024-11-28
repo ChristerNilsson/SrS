@@ -1,5 +1,5 @@
 ---
-title: "Övrigt"
+title: Övrigt
 ---
 
 |År|Resultat|

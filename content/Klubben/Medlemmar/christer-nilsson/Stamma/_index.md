@@ -1,5 +1,5 @@
 ---
-title: "Stamma"
+title: Stamma
 ---
 
 *En liten berättelse om hur övergången från deskriptiv notation till algebraisk gick till.  

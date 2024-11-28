@@ -1,5 +1,5 @@
 ---
-title: "Performance Calculators"
+title: Performance Calculators
 ---
 
 * Det förekommer tre olika metoder att beräkna Performance Rating

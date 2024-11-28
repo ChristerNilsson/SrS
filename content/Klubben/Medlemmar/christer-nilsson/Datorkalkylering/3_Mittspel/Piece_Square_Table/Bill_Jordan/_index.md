@@ -1,5 +1,5 @@
 ---
-title: "Bill Jordan"
+title: Bill Jordan
 ---
 
 [Try it!](https://christernilsson.github.io/JavaScript-Chess/)

@@ -1,5 +1,5 @@
 ---
-title: "Partier"
+title: Partier
 ---
 
 |Utvärdering|Datum|Vit|Svart|Resultat|

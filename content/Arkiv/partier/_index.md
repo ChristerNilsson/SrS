@@ -1,5 +1,5 @@
 ---
-title: "Partier"
+title: Partier
 ---
 
 [abergjeremic](../../htm/abergjeremic.htm)  

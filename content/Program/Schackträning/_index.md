@@ -1,5 +1,5 @@
 ---
-title: "Schackträning"
+title: Schackträning
 ---
 
 [Konsten att kakylera](FL2_HT24_Konsten_att_kalkylera_Del2.pdf)  

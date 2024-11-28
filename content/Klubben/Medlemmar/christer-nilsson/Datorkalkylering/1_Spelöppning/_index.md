@@ -1,5 +1,5 @@
 ---
-title: "1 Spelöppning"
+title: 1 Spelöppning
 ---
 
 Spelöppningen går snabbt att genomföra om man har tillgång till en databas med öppningar.

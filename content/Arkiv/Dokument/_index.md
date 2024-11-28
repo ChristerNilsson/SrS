@@ -1,4 +1,4 @@
 ---
-title: "Dokument"
+title: Dokument
 auto: true
 ---

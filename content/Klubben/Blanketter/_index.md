@@ -1,4 +1,4 @@
 ---
-title: "Blanketter"
+title: Blanketter
 auto: true
 ---

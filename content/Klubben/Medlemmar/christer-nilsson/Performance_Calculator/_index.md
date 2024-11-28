@@ -1,5 +1,5 @@
 ---
-title: "Performance Calculator"
+title: Performance Calculator
 ---
 
 Skriv in motståndarnas rating följt av din uppnådda partipoäng, separerade med mellanslag:

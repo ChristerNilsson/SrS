@@ -1,5 +1,5 @@
 ---
-title: "2014"
+title: 2014
 ---
 [Styrelse, revisor och valberedning 2014](seniorstyrelse_2014.pdf)
 

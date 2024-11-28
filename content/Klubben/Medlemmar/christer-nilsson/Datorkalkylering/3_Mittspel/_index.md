@@ -1,5 +1,5 @@
 ---
-title: "3 Mittspel"
+title: 3 Mittspel
 ---
 
 *Datorschack består i princip av addition och subtraktion av heltal*

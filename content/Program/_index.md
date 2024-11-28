@@ -1,5 +1,5 @@
 ---
-title: "Program"
+title: Program
 ---
 
 | Dag | Tid | Schacksalongerna                        | Rioträffen  |

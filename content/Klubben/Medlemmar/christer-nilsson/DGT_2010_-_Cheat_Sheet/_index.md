@@ -1,5 +1,5 @@
 ---
-title: "DGT 2010 - Cheat Sheet"
+title: DGT 2010 - Cheat Sheet
 ---
 
 *av Christer Nilsson* 

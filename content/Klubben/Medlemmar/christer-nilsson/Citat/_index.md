@@ -1,5 +1,5 @@
 ---
-title: "Citat"
+title: Citat
 ---
 
 ### Schack

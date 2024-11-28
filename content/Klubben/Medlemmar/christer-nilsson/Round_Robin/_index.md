@@ -1,4 +1,4 @@
 ---
-title: "Round Robin"
+title: Round Robin
 auto: true
 ---

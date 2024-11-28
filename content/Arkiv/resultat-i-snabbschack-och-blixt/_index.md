@@ -1,5 +1,5 @@
 ---
-title: "Resultat i snabbschack och blixt"
+title: Resultat i snabbschack och blixt
 ---
 
 |År|Resultat|

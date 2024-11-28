@@ -1,5 +1,5 @@
 ---
-title: "Styrelse"
+title: Styrelse
 ---
 
 |||

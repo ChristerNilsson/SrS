@@ -1,5 +1,5 @@
 ---
-title: "Schackhistoria"
+title: Schackhistoria
 ---
 
 0500-talet chaturanga Indien  
