@@ -5,20 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Seniorschack</title>
-	<link id="theme-stylesheet" rel="stylesheet" href="/SrS/css/dark.css">
+
+	
+	<link rel="stylesheet" href="/SrS/styles.css">
+	
 	
   </head>
 <body>
 
 	<script>
-		function applyTheme(theme) {
-			const link = document.getElementById('theme-stylesheet');
-			link.href = `\/SrS\/css\/\u0024\u007btheme\u007d.css`;
-		}
 		function setStorage(key,value){
 			document.body.setAttribute(key, value);
 			localStorage.setItem(key, value);
-			
+			console.log(key,value)
 		}
 		function setDefault(key,value) {
 			if (localStorage.getItem(key) == null) {
@@ -246,7 +245,7 @@
       </tr>
   </tbody>
 </table>
-<p><old>Uppdaterad: 2024-11-28 14:38 </old></p>
+<p><old>Uppdaterad: 2024-11-28 19:53 </old></p>
 
 
 	</div>

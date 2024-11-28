@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inställningar</title>
-  <link id="theme-stylesheet" rel="stylesheet" href="/SrS/css/dark.css">
+
+  
+  <link rel="stylesheet" href="/SrS/styles.css">
+
+  
   
 </head>
 <body>
 
 	<script>
 
-		function applyTheme(theme) {
-			const link = document.getElementById('theme-stylesheet');
-			link.href = `\/SrS\/css\/\u0024\u007btheme\u007d.css`;
-
-		}		
+		
+		
+		
+		
 
 		function setStorage(key,value){
 			document.body.setAttribute(key, value);
@@ -47,14 +50,15 @@
 		
 		<!-- Se till att styles.css på rotnivå matchar nedanstående -->
 <script>
-	function applyTheme(theme) {
-		const link = document.getElementById('theme-stylesheet');
-		link.href = `{{ "css/${theme}.css" | relURL }}`;
-	}		
+	// function applyTheme(theme) {
+	// 	const link = document.getElementById('theme-stylesheet');
+	// 	link.href = `{{ "css/${theme}.css" | relURL }}`;
+	// }		
 
 	function setStorage(key,value){
 		document.body.setAttribute(key, value);
 		localStorage.setItem(key, value);
+		console.log(key,value)
 		// if (key == 'theme') applytheme(value)
 	}
 	function setDefault(key,value) {
@@ -65,10 +69,9 @@
 		}
 	}
 </script>
-<!-- ### Tema
-
-<a onclick="setStorage('theme','light')">Ljust</a>  
-<a onclick="setStorage('theme','dark')">Mörkt</a>   -->
+<h3 id="tema">Tema</h3>
+<p><a onclick="setStorage('theme','light')">Ljust</a><br>
+<a onclick="setStorage('theme','dark')">Mörkt</a></p>
 <h3 id="font">Font</h3>
 <p><a onclick="setStorage('font','Helvetica')">Helvetica</a><br>
 <a onclick="setStorage('font','Courier New')">Courier New</a><br>

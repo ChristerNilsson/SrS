@@ -5,14 +5,15 @@ title: "Inställningar"
 <!-- Se till att styles.css på rotnivå matchar nedanstående -->
 
 <script>
-	function applyTheme(theme) {
-		const link = document.getElementById('theme-stylesheet');
-		link.href = `{{ "css/${theme}.css" | relURL }}`;
-	}		
+	// function applyTheme(theme) {
+	// 	const link = document.getElementById('theme-stylesheet');
+	// 	link.href = `{{ "css/${theme}.css" | relURL }}`;
+	// }		
 
 	function setStorage(key,value){
 		document.body.setAttribute(key, value);
 		localStorage.setItem(key, value);
+		console.log(key,value)
 		// if (key == 'theme') applytheme(value)
 	}
 	function setDefault(key,value) {
@@ -24,10 +25,10 @@ title: "Inställningar"
 	}
 </script>
 
-<!-- ### Tema
+### Tema
 
 <a onclick="setStorage('theme','light')">Ljust</a>  
-<a onclick="setStorage('theme','dark')">Mörkt</a>   -->
+<a onclick="setStorage('theme','dark')">Mörkt</a>  
 
 ### Font
 
