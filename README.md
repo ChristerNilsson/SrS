@@ -1,12 +1,40 @@
 [Try it!](https://christernilsson.github.io/SrS/)
 
+# Information till Junior Webmaster
+
+Din uppgift är i första hand att redigera filer i katalogen /data.  
+
+* föreläsningar.yaml
+* inbjudningar.yaml
+* lagturneringar.yaml
+* meddelanden.yaml
+* turneringar.yaml
+
+Dessa filer läses av Hugo vid genereringen och används för att skapa startsidans html.
+
+Lagturneringar.yaml:
+```
+rows:
+  - turnering: Allsvenskan
+    länk: https://member.schack.se/ShowTournamentServlet?id=14266
+
+  - turnering: Stockholmsserien
+    länk: https://member.schack.se/ShowTournamentServlet?id=14744
+
+  - turnering: Lag-DM
+    länk: https://member.schack.se/ShowTournamentServlet?id=14562
+```
+
+Det finns tre inledande bindestreck, det innebär att vi har tre rader.  
+Vi har två fältnamn, turnering är obligatoriskt, länk kan utelämnas.  
+Lägg märke till antalet blanktecken.
+Blanka rader kan utelämnas.
+
 # Flytt från Seniorschack till Hugo
 
 Originalet utvecklat av mig.  
-Påbörjade detta arbete 2024-11-22
+Påbörjade detta arbete 2024-11-22  
 Eftersom min filosofi går att implementera med Hugo ville jag testa skarpt.  
-
-Hugokoden blev tämligen liten. 10-15 rader:
 
 * layouts
 	* _default
