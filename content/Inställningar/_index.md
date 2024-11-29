@@ -2,24 +2,6 @@
 title: Inställningar
 ---
 
-<!-- Se till att styles.css på rotnivå matchar nedanstående -->
-
-<script>
-
-	function setStorage(key,value){
-		document.body.setAttribute(key, value);
-		localStorage.setItem(key, value);
-		console.log(key,value)
-	}
-	function setDefault(key,value) {
-		if (localStorage.getItem(key) == null) {
-			setStorage(key,value)
-		} else {
-			setStorage(key, localStorage.getItem(key))
-		}
-	}
-</script>
-
 ### Tema
 
 <a onclick="setStorage('theme','light')">Ljust</a>  
