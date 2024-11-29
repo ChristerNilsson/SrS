@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Seniorschack</title>
+	<title>SrS</title>
 
 	{{ $styles := resources.Get "styles.sass" | resources.ToCSS }}
 	<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
@@ -29,7 +29,7 @@
 		setDefault('font','Helvetica')
 	</script>
 
-	<h1>Seniorschack</h1>
+	<h1>Seniorschack Stockholm</h1>
 
 	<div> 
 		<ul>
@@ -40,8 +40,135 @@
 		{{ end }}
 		</ul>
 
-{{ .Content }}
+		{{ range .Site.Data.meddelanden.rows }}
+			{{ if .meddelande }}
+				<red>{{ .datum }} • {{ .meddelande }}</red><br>
+			{{ end }}
+		{{ end }}
+
+		<h3>Turneringar</h3>
+
+		<table>
+			<thead>
+			  <tr>
+				<th>Individ</th>
+				<th>Dag</th>
+				<th>Typ</th>
+			  </tr>
+			</thead>
+			<tbody>
+			{{ range .Site.Data.turneringar.rows }}
+				<tr>
+					<td>
+						{{ if .länk }}
+							<a href="{{ .länk }}">{{ .turnering }}</a>
+						{{ else}}
+							{{ .turnering }}
+						{{ end }}
+					</td>
+					<td>{{ .dag }}</td>
+					<td>{{ .typ }}</td>
+				</tr>
+			{{ end }}
+			</tbody>
+		</table>
+
+		<table>
+			<thead>
+			  <tr>
+				<th>Lag</th>
+			  </tr>
+			</thead>
+			<tbody>
+			{{ range .Site.Data.lagturneringar.rows }}
+				<tr>
+					<td>
+						{{ if .länk }}
+							<a href="{{ .länk }}">{{ .turnering }}</a>
+						{{ else}}
+							{{ .turnering }}
+						{{ end }}
+					</td>
+				</tr>
+			{{ end }}
+			</tbody>
+		</table>
+
+		<h3>Inbjudningar</h3>
+
+		<table>
+			<thead>
+			  <tr>
+				<th>Datum</th>
+				<th>Tid</th>
+				<th>Typ</th>
+				<th>Inbjudan</th>
+				<th>Resultat</th>
+			  </tr>
+			</thead>
+			<tbody>
+			{{ range .Site.Data.inbjudningar.rows }}
+				{{ $today := now.Format "2024-11-29" }}
+				{{ $old := lt .datum $today }}
+				{{ if $old }}
+					<tr style="color:#bbb">
+				{{ else }}
+					<tr style="color:#fff">
+				{{ end }}
+					<td>{{ .datum }}</td>
+					<td>{{ .tid }}</td>
+					<td>{{ .typ }}</td>
+					<td>
+						{{ if .länk }}
+							<a href="{{ .länk }}">{{ .inbjudan }}</a>
+						{{ else}}
+							{{ .inbjudan }}
+						{{ end }}
+					</td>
+					<td>
+						{{ if .resultat }}
+							<a href="{{ .resultat }}">Resultat</a>	
+						{{ end }}
+					</td>
+				</tr>
+			{{ end }}
+			</tbody>
+		  </table>
+
+		<h3>Föreläsningar • tisdagar 10-12 • Salongerna</h3>
+
+		<table>
+			<thead>
+			  <tr>
+				<th>Datum</th>
+				<th>Föreläsning</th>
+			  </tr>
+			</thead>
+			<tbody>
+			{{ range .Site.Data.föreläsningar.rows }}
+				{{ $today := now.Format "2006-01-02" }}
+				{{ $old := lt .datum $today }}
+				{{ if $old }}
+					<tr style="color:#bbb">
+				{{ else }}
+					<tr style="color:#fff">
+				{{ end }}
+					<td>{{ .datum }}</td>
+					<td>
+						{{ if .länk }}
+							<a href="{{ .länk }}">{{ .föreläsning }}</a>
+						{{ else}}
+							{{ .föreläsning }}
+						{{ end }}
+					</td>
+				</tr>
+			{{ end }}
+			</tbody>
+		</table>
 
 	</div>
+
+	<old>Uppdaterad: {{ now.Format "2006-02-01 15:04" }} </old>
+
 </body>
 </html>
