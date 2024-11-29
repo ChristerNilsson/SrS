@@ -66,3 +66,18 @@ Dessutom visar github bara 1000 filer per katalog. Dock kan man lagra obegränsa
 Märkte också en fördröjning innan filerna blev tillgängliga, på någon minut.  
 
 Kanske bättre att lagra dessa 1507 filer någon annanstans, eller plocka ut de 20% som används.  
+
+# Performance 
+
+Jämförelse av mitt förslag versus Wordpress (Strato)
+
+WP hämtar 31 olika filer.  
+Jag hämtar en enda fil. (css ligger i html-filen)  
+Dessutom körde jag "hugo" för att slippa Live koden.  
+Vidare hämtade jag inte bara Turnering och Meddelanden.  
+Jag hämtade även Föreläsningar och Inbjudningar.  
+
+|variabel|CN|WP|faktor|
+|-|-|-|-|
+|data|2.6 kb|522 kb|200x|
+|tid|5ms|977ms|195x|
