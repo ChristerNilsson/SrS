@@ -4,6 +4,8 @@ title: FairPair
 
 [Turneringsprogrammet](https://christernilsson.github.io/FairPair)
 
+<div style="text-align:left">
+
 *FairPair har beskrivits som **Flytande Berger**.  
 Varje deltagare ligger i mitten av sin egen Bergergrupp*
 
@@ -12,11 +14,9 @@ Bygger på två principer:
 
 1. Alla möter spelare som ligger närmast i rating. 
 2. Sortering:
-	* I första hand: PR (Performance Rating)
-	* I andra hand: EPR (Enhanced Performance Rating)
-		* EPR beräknas genom att lägga till en fiktiv remi mot spelarens medelmotståndare
-		* Största nyttan med EPR är att hantera att 0% och 100% partipoäng => infinity
-	* Att PR inte redan används i alla Schweizer-turneringar beror troligen på att man vill kunna beräkna för hand
+	* Varje spelare spelar en fiktiv remi mot turneringens medelspelare.
+	* Performance Rating räknas nu ut, med den matematiskt korrekta metoden.
+	* Att PR inte redan används i alla Schweizer-turneringar beror troligen på att man vill kunna räkna för hand.
 
 Berger är den rättvisaste formen, helst dubbelrondig.   
 Berger kan dock inte användas med många deltagare.   
@@ -97,3 +97,4 @@ En turnering med sju ronder kan alltså ge en ökning på 58 elo.
 7 av 7 (=100%) mot lika starka spelare, ger 7 * 20 = 140 elo.  
 Man behöver alltså inte möta spelare som är flera hundra elos starkare för att avancera snabbt.
 
+</div>
