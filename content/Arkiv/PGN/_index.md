@@ -2,13 +2,7 @@
 title: PGN
 ---
 
-### Instruktioner
-
-* Klicka på den PGN du vill ha.
-* Den laddas då ner
-* Kopiera innehållet och klistra in i Lichess
-* Eller hämta filen inifrån [Lichess](https://lichess.org/past)
-* Vill du få med kommentarerna => använd en studie.
+[Lichess](https://lichess.org/past)
 
 ||
 |-|

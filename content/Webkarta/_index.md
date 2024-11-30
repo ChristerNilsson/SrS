@@ -2,7 +2,7 @@
 title: Webkarta
 ---
 
-|Varje • motsvarer en nivå|
+|Varje • motsvarar en nivå|
 |-|
 |• [Arkiv](../arkiv)|
 |• • [Dokument](../arkiv/dokument)|
