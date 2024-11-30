@@ -1,0 +1,22 @@
+<!-- <red>lagturneringar.html</red> -->
+
+<table>
+	<thead>
+	  <tr>
+		<th>Lag</th>
+	  </tr>
+	</thead>
+	<tbody>
+	{{ range .Site.Data.lagturneringar.rows }}
+		<tr>
+			<td>
+				{{ if .länk }}
+					<a href="{{ .länk }}">{{ .turnering }}</a>
+				{{ else}}
+					{{ .turnering }}
+				{{ end }}
+			</td>
+		</tr>
+	{{ end }}
+	</tbody>
+</table>

@@ -5,35 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Klubbar</title>
 
+   
+
   
   <link rel="stylesheet" href="/SrS/styles.css">
-  
+
 </head>
 <body>
 
-	<script>
+	
 
-		function setStorage(key,value){
-			document.body.setAttribute(key, value);
-			localStorage.setItem(key, value);
-		}
-		function setDefault(key,value) {
-			if (localStorage.getItem(key) == null) {
-				setStorage(key,value)
-			} else {
-				setStorage(key, localStorage.getItem(key))
-			}
-		}
-		setDefault('theme','dark')
-		setDefault('fontsize','20px')
-		setDefault('font','Helvetica')
-	</script>
+	
+
+
+	<main>
+		
+
+	
+
+	
+
+<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
 
 	<div>
 	
 		<h1>Klubbar</h1>
 
 		
+
 
 <a href="/SrS/">Home</a> • 
 <a href="/SrS/klubben/">Klubben</a> • 
@@ -368,5 +386,11 @@ Men, det går att med tämligen enkla medel tillhandahålla trädet på Wordpres
 
 	
 	</div>
+
+	</main>
+
+	
+ 
+
 </body>
 </html>

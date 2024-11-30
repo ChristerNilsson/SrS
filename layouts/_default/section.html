@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
+{{ define "main" }}
 
-  {{ $styles := resources.Get "styles.sass" | resources.ToCSS }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-  
-</head>
-<body>
+	<!-- <red>section</red> -->
 
-	<script>
-
-		function setStorage(key,value){
-			document.body.setAttribute(key, value);
-			localStorage.setItem(key, value);
-		}
-		function setDefault(key,value) {
-			if (localStorage.getItem(key) == null) {
-				setStorage(key,value)
-			} else {
-				setStorage(key, localStorage.getItem(key))
-			}
-		}
-		setDefault('theme','dark')
-		setDefault('fontsize','20px')
-		setDefault('font','Helvetica')
-	</script>
+	{{ partial "js.html" . }}
 
 	<div>
 	
@@ -58,5 +33,4 @@
 		{{ .Content }}
 	
 	</div>
-</body>
-</html>
+{{ end }}

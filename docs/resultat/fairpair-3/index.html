@@ -5,35 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FairPair 3</title>
 
+   
+
   
   <link rel="stylesheet" href="/SrS/styles.css">
-  
+
 </head>
 <body>
 
-	<script>
+	
 
-		function setStorage(key,value){
-			document.body.setAttribute(key, value);
-			localStorage.setItem(key, value);
-		}
-		function setDefault(key,value) {
-			if (localStorage.getItem(key) == null) {
-				setStorage(key,value)
-			} else {
-				setStorage(key, localStorage.getItem(key))
-			}
-		}
-		setDefault('theme','dark')
-		setDefault('fontsize','20px')
-		setDefault('font','Helvetica')
-	</script>
+	
+
+
+	<main>
+		
+
+	
+
+	
+
+<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
 
 	<div>
 	
 		<h1>FairPair 3</h1>
 
 		
+
 
 <a href="/SrS/">Home</a> • 
 <a href="/SrS/resultat/"></a>
@@ -111,5 +129,11 @@ Det går att tvinga fram 2+2, men då tvingas algoritmen<br>
 
 	
 	</div>
+
+	</main>
+
+	
+ 
+
 </body>
 </html>

@@ -1,0 +1,36 @@
+<!-- <red>inbjudningar.html</red> -->
+
+<table>
+	<thead>
+	  <tr>
+		<th>Datum</th>
+		<th>Tid</th>
+		<th>Typ</th>
+		<th>Inbjudan</th>
+		<th>Resultat</th>
+	  </tr>
+	</thead>
+	<tbody>
+	{{ range .Site.Data.inbjudningar.rows }}
+		{{ $today := now.Format "2024-11-29" }}
+		{{ $old := lt .datum $today }}
+		{{ if $old }}
+			<tr style="color:#bbb">
+		{{ else }}
+			<tr style="color:#fff">
+		{{ end }}
+			<td>{{ .datum }}</td>
+			<td>{{ .tid }}</td>
+			<td>{{ .typ }}</td>
+			<td style="text-align:left">{{ if .länk }}
+				<a href="{{ .länk }}">{{ .inbjudan }}</a>
+				{{ else}}{{ .inbjudan }}{{ end }}</td>
+			<td>
+				{{ if .resultat }}
+					<a href="{{ .resultat }}">Resultat</a>	
+				{{ end }}
+			</td>
+		</tr>
+	{{ end }}
+	</tbody>
+  </table>

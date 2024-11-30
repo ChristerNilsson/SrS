@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+
+  {{ partial "head.html" . }} 
+
+  {{ $styles := resources.Get "styles.sass" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+</head>
+<body>
+
+	<!-- <red>baseof.html</red> -->
+
+	{{ partial "header.html" . }}
+
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+
+	{{ partial "footer.html" . }} 
+
+</body>
+</html>

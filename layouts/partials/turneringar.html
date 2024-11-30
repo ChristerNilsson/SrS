@@ -1,0 +1,26 @@
+<!-- <red>turneringar.html</red> -->
+
+<table>
+	<thead>
+	  <tr>
+		<th>Individ</th>
+		<th>Dag</th>
+		<th>Typ</th>
+	  </tr>
+	</thead>
+	<tbody>
+	{{ range .Site.Data.turneringar.rows }}
+		<tr>
+			<td>
+				{{ if .länk }}
+					<a href="{{ .länk }}">{{ .turnering }}</a>
+				{{ else}}
+					{{ .turnering }}
+				{{ end }}
+			</td>
+			<td>{{ .dag }}</td>
+			<td>{{ .typ }}</td>
+		</tr>
+	{{ end }}
+	</tbody>
+</table>
