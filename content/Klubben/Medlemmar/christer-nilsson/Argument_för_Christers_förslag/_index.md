@@ -4,6 +4,8 @@ title: Argument för Christers förslag
 
 [christernilsson.github.io/SrS](https://christernilsson.github.io/SrS)
 
+<div style="text-align:left">
+
 ### Målsättning
 
 Klubbens hemsida ska fungera som en anslagstavla
@@ -59,3 +61,5 @@ Klubbens hemsida ska fungera som en anslagstavla
 * [del 2](https://www.youtube.com/watch?v=1Y9HrID3A90) - Genomgång av menyerna
 * [del 3](https://www.youtube.com/watch?v=U1aR5xxZkug) - Uppdatering med Markdown
 * [del 4](https://www.youtube.com/watch?v=2MuFqcCIDWU) - Uppdatering av Github
+
+</div>

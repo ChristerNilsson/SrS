@@ -6,9 +6,9 @@
 
 	<div>
 	
-		<h1>{{ .CurrentSection.Title }}</h1>
-
 		{{ partial "breadcrumbs.html" . }}
+
+		<h1>{{ .CurrentSection.Title }}</h1>
 
 		{{ if .Params.auto }}
 			
