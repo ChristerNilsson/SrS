@@ -40,7 +40,8 @@ process = (data_t, data_r, tid, pid) ->
 		g = r.games[0]
 		if r.finalized 
 			n += 1
-			if r.homeResult != 0 or r.awayResult != 0 then good += 1
+			# if r.homeResult != 0 or r.awayResult != 0 then good += 1
+			if g.result in [-1,0,1] then good += 1
 		# console.log r.awayId,r.homeId
 		if r.awayId == pid or r.homeId == pid
 			färg = if r.homeId==pid then "vit" else "svart"
@@ -55,7 +56,7 @@ process = (data_t, data_r, tid, pid) ->
 				s += td "w.o."
 			else
 				s += td players[opp.toString()]
-			if g.result==-3 then res += " w.o."
+			if g.result in [-3,-2,2] then res += " w.o."
 			s += td res,center
 			col = if r.date < nu or r.finalized then grå else ""
 			stable += tr s,col

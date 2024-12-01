@@ -97,23 +97,32 @@ Man behöver alltså inte möta spelare som är flera hundra elos starkare för 
 
 ### Bergergrupper, ett exempel från SrS 2024 HT
 
-Spelarna delades upp i fem grupper.  
+De 56 spelarna delades upp i fem grupper.  
+* Klass M: udda antal, ingen bröt
+* Klass 1: jämnt antal, en spelare bröt
+* Klass 2: udda antal, en spelare bröt
+* Klass 3: jämnt antal, ingen bröt
+* Klass 4: jämnt antal, en spelare bröt, en var intermittent
 
 N = ospelade partier  
 R = ronder
+% = andel ospelade partier
 
 |Namn|Spelare|R|partier|N|%|
 |-|-:|-:|-:|-:|-:|
-|Klass M|11|11| 66|11|17%|
-|Klass 1|12|11| 66| 0| 0%|
-|Klass 2|11|11| 66|20|30%|
-|Klass 3|12|11| 66| 0| 0%|
-|Klass 4|10| 9| 45|11|24%|
-|Totalt |56||309|42|14%|
+|Klass M|11|11| 55|10|18.2%|
+|Klass 1|12|11| 66| 6| 9.1%|
+|Klass 2|11|11| 55|21|38.2%|
+|Klass 3|12|11| 66| 0| 0.0%|
+|Klass 4|10| 9| 45|11|24.4%|
+|Totalt |56||309|48|15.5%|
 
-Om alla spelarna ingått i en enda FairPair-grupp, skulle förväntat antal ospelade partier bli 5.5 vid elva ronder. 56*11/2=308 partier => ett bortfall på 5.5/308 = 1.8%
+Om alla spelarna ingått i en enda FairPair-grupp,  
+skulle förväntat antal ospelade partier bli 5.5 vid elva ronder.  
+Detta pga att spelarna flyter mellan klasserna.  
+56/2*11=308 partier => ett bortfall på 5.5/308 = 1.8%  
 
 Som en bonus, skulle förväntat antal partier/spelare för Klass 4 öka från 6.8 till 10.5
 
-Således hade man sänkt bortfallet från 14% till 1.8% om man använt FairPair istället.
+ **Om man använt FairPair istället, hade man sänkt bortfallet från 15.5% till 1.8%.**
 
