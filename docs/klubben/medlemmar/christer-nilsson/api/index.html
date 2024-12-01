@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/SrS/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=SrS/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/SrS/styles.css">
+
+</head>
+<body>
+
+	
+
+
+	<main>
+		
+
+	
+
+	
+
+<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+
+<a href="/SrS/">Home</a> • 
+<a href="/SrS/klubben/">Klubben</a> • 
+<a href="/SrS/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/SrS/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a>
+
+
+		<h1>API</h1>
+
+		
+		
+		<div id="app"></div>
+<script src="sketch.js"></script>
+<script>
+
+const urlParams = new URLSearchParams(window.location.search)
+const tid = parseInt(urlParams.get("tid"))
+const pid = parseInt(urlParams.get("pid").toString())
+
+const api_t = 'https://member.schack.se/public/api/v1/tournamentresults/table/id/'
+const api_r = 'https://member.schack.se/public/api/v1/tournamentresults/roundresults/id/'
+
+Promise.all([
+  fetch(api_t + tid).then(response => response.json()),
+  fetch(api_r + tid).then(response => response.json())
+])
+  .then(([data_t, data_r]) => {
+    process(data_t,data_r,pid)
+  })
+  .catch(error => console.error('Fel vid hämtning av filer:', error));
+
+</script>
+
+	
+	</div>
+
+	</main>
+
+	
+ 
+
+</body>
+</html>

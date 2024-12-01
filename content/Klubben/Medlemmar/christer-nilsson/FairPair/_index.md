@@ -4,8 +4,6 @@ title: FairPair
 
 [Turneringsprogrammet](https://christernilsson.github.io/FairPair)
 
-<div style="text-align:left">
-
 *FairPair har beskrivits som **Flytande Berger**.  
 Varje deltagare ligger i mitten av sin egen Bergergrupp*
 
@@ -22,12 +20,12 @@ Berger är den rättvisaste formen, helst dubbelrondig.
 Berger kan dock inte användas med många deltagare.   
 Då används Schweizer eller Bergergrupper.
 
-#### Poängberäkning enligt FairPair
+### Poängberäkning enligt FairPair
 
 Man använder motståndarnas elo, tillsammans med vinstprocenten för att beräkna PR.  
 Detta är exakt samma metod som den man använder när en spelare ges en initial rating i FIDE:s ratingsystem.  
 
-#### Invändningar mot Schweizer
+### Invändningar mot Schweizer
 
 1. De flesta partier har stor skillnad mellan spelarna (CN)
 	* Här missar man tillfällen att hämta viktig information
@@ -43,24 +41,24 @@ Detta är exakt samma metod som den man använder när en spelare ges en initial
 
 Ju mer information man använder, desto bättre blir sorteringen. 
 
-#### Invändningar mot Berger
+### Invändningar mot Berger
 
 1. Om vi startar en bergergrupp med elva spelare och en hoppar av efter första ronden,
 kommer alla deltagare att ha en frirond plus en walkover. FairPair ser till att alla spelare får spela varje rond,  
 eftersom de nu är tio spelare, dvs jämnt antal. (CN)
 
-#### Invändningar mot FairPair
+### Invändningar mot FairPair
 
 1. Hur vet man vem som vann? (SW)
 2. Många spelare vill möta spelare med olika spelstyrkor (POH)
 3. Om oratade bara spelar med andra oratade, får de aldrig någon rating. (CN)
 4. Det blir fler remier om jämnare spelare möts. (CN)
 
-#### Varför sorterar Schweizer och FairPair olika ibland?
+### Varför sorterar Schweizer och FairPair olika ibland?
 
 Det beror på att Schweizer använder grövre metoder.
 
-#### Vilka är dessa grövre metoder?
+### Vilka är dessa grövre metoder?
 
 1. I Schweizer är en vinst alltid exakt en poäng oavsett om man slagit den bäste eller den sämste
 	* FairPair tar hänsyn till motståndarnas elo när PR beräknas
@@ -75,20 +73,20 @@ Det beror på att Schweizer använder grövre metoder.
 		* 500 => 95%
 		* 600 => 97%
 
-#### Schweizer (78 spelare)
+### Schweizer (78 spelare)
 
 Starkaste spelaren längst upp till vänster. Cellerna indikerar rondnummer.  
 I denna turnering spelades bara 15% av partierna mot de närmaste åtta spelarna, elo-mässigt.
 
 ![Schweizer 78](X_Schweizer_78.png)
 
-#### FairPair (78 spelare)
+### FairPair (78 spelare)
 
 Hundbenet.
 
 ![FairPair 78](X_FairPair_78.png)
 
-#### Måste man möta mycket starkare spelare för att avancera snabbt?
+### Måste man möta mycket starkare spelare för att avancera snabbt?
 
 [Arvid Fridman 2019](https://ratings.fide.com/calculations.phtml?id_number=1758632&period=2019-12-01&rating=0) 6.3 elo per klassiskt parti.  
 [Ram Srinivasson 2024](https://ratings.fide.com/profile/1779249/chart) 8.3 elo per klassiskt parti
@@ -97,4 +95,25 @@ En turnering med sju ronder kan alltså ge en ökning på 58 elo.
 7 av 7 (=100%) mot lika starka spelare, ger 7 * 20 = 140 elo.  
 Man behöver alltså inte möta spelare som är flera hundra elos starkare för att avancera snabbt.
 
-</div>
+### Bergergrupper, ett exempel från SrS 2024 HT
+
+Spelarna delades upp i fem grupper.  
+
+N = ospelade partier  
+R = ronder
+
+|Namn|Spelare|R|partier|N|%|
+|-|-:|-:|-:|-:|-:|
+|Klass M|11|11| 66|11|17%|
+|Klass 1|12|11| 66| 0| 0%|
+|Klass 2|11|11| 66|20|30%|
+|Klass 3|12|11| 66| 0| 0%|
+|Klass 4|10| 9| 45|11|24%|
+|Totalt |56||309|42|14%|
+
+Om alla spelarna ingått i en enda FairPair-grupp, skulle förväntat antal ospelade partier bli 5.5 vid elva ronder. 56*11/2=308 partier => ett bortfall på 5.5/308 = 1.8%
+
+Som en bonus, skulle förväntat antal partier/spelare för Klass 4 öka från 6.8 till 10.5
+
+Således hade man sänkt bortfallet från 14% till 1.8% om man använt FairPair istället.
+
