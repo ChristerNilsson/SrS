@@ -44,13 +44,15 @@
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/anders-franz%C3%A9n/</loc>
   </url><url>
-    <loc>http://localhost:1313/SrS/api/</loc>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/andrzej-kaminski/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/argument_f%C3%B6r_christers_f%C3%B6rslag/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/arkiv/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/arne-h%C3%B6%C3%B6k/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/bertil-wennstr%C3%B6m/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/datorkalkylering/3_mittspel/piece_square_table/bill_jordan/</loc>
   </url><url>
@@ -80,6 +82,8 @@
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/heinz-schmidt/</loc>
   </url><url>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/henrik-str%C3%B6mb%C3%A4ck/</loc>
+  </url><url>
     <loc>http://localhost:1313/SrS/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/inst%C3%A4llningar/</loc>
@@ -93,6 +97,8 @@
     <loc>http://localhost:1313/SrS/klubben/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/kontakt/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/lage-holmberg/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/lars-ivar-juntti/</loc>
   </url><url>
@@ -152,7 +158,11 @@
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/todo/</loc>
   </url><url>
+    <loc>http://localhost:1313/SrS/api/</loc>
+  </url><url>
     <loc>http://localhost:1313/SrS/arkiv/veckans-kombination/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/vida-radon/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/webkarta/</loc>
   </url><url>
