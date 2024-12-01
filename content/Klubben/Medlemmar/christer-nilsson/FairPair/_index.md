@@ -95,6 +95,8 @@ En turnering med sju ronder kan alltså ge en ökning på 58 elo.
 7 av 7 (=100%) mot lika starka spelare, ger 7 * 20 = 140 elo.  
 Man behöver alltså inte möta spelare som är flera hundra elos starkare för att avancera snabbt.
 
+<br><br><br><br>
+
 ### Bergergrupper, ett exempel från SrS 2024 HT
 
 De 56 spelarna delades upp i fem grupper.  
@@ -105,17 +107,17 @@ De 56 spelarna delades upp i fem grupper.
 * Klass 4: jämnt antal, en spelare bröt, en var intermittent
 
 N = ospelade partier  
-R = ronder
-% = andel ospelade partier
+R = ronder  
+% = andel ospelade partier  
 
 |Namn|Spelare|R|partier|N|%|
 |-|-:|-:|-:|-:|-:|
-|Klass M|11|11| 55|10|18.2%|
+|Klass M|11|11| 66|11|16.7%|
 |Klass 1|12|11| 66| 6| 9.1%|
-|Klass 2|11|11| 55|21|38.2%|
+|Klass 2|11|11| 66|21|31.8%|
 |Klass 3|12|11| 66| 0| 0.0%|
 |Klass 4|10| 9| 45|11|24.4%|
-|Totalt |56||309|48|15.5%|
+|Totalt |56||309|49|15.9%|
 
 Om alla spelarna ingått i en enda FairPair-grupp,  
 skulle förväntat antal ospelade partier bli 5.5 vid elva ronder.  
@@ -124,5 +126,5 @@ Detta pga att spelarna flyter mellan klasserna.
 
 Som en bonus, skulle förväntat antal partier/spelare för Klass 4 öka från 6.8 till 10.5
 
- **Om man använt FairPair istället, hade man sänkt bortfallet från 15.5% till 1.8%.**
+ **Om man använt FairPair istället, hade man sänkt bortfallet från 15.9% till 1.8%.**
 
