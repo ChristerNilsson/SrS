@@ -1,8 +1,14 @@
 ---
-title: API
+title: Turnering
 ---
 
+<div id="turnering"></div>
+
+<div id="spelare"></div>
+
 <div id="app"></div>
+
+<div id="statistik"></div>
 
 <script src="sketch.js"></script>
 
@@ -20,7 +26,7 @@ Promise.all([
   fetch(api_r + tid).then(response => response.json())
 ])
   .then(([data_t, data_r]) => {
-    process(data_t,data_r,pid)
+    process(data_t,data_r,tid,pid)
   })
   .catch(error => console.error('Fel vid hämtning av filer:', error));
 
