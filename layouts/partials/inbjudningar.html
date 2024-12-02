@@ -1,5 +1,3 @@
-<!-- <red>inbjudningar.html</red> -->
-
 <table>
 	<thead>
 	  <tr>
@@ -12,7 +10,7 @@
 	</thead>
 	<tbody>
 	{{ range .Site.Data.inbjudningar.rows }}
-		{{ $today := now.Format "2024-11-29" }}
+		{{ $today := now.Format "2006-01-02" }}
 		{{ $old := lt .datum $today }}
 		{{ if $old }}
 			<tr style="color:#bbb">
