@@ -32,6 +32,7 @@ process = (data_t, data_r, tid, pid) ->
 
 	played = 0
 	n = data_r.length
+	finalized = 0
 
 	center = 'style="text-align: center"'
 	grå    = 'class="old"'
@@ -40,7 +41,9 @@ process = (data_t, data_r, tid, pid) ->
 
 	for r in data_r
 		g = r.games[0]
-		if r.finalized and g.result in [-1,0,1] then played += 1
+		if r.finalized 
+			finalized += 1
+			if g.result in [-1,0,1] then played += 1
 		if r.awayId == pid or r.homeId == pid
 			färg = if r.homeId==pid then "vit" else "svart"
 			s = ""
@@ -67,4 +70,4 @@ process = (data_t, data_r, tid, pid) ->
 	turnering.innerHTML = "<a href='https://member.schack.se/ShowTournamentServlet?id=#{tid}'>#{turneringar[tid]}</a>"
 	spelare.innerText = "Spelare: " + players[pid]
 	app.innerHTML = table stable
-	statistik.innerText = "#{played} av #{n} partier spelade i turneringen. (#{(100*played/n).toFixed 1}%)"
+	statistik.innerText = "#{played} av #{finalized} partier spelade i turneringen. (#{(100*played/finalized).toFixed 1}%). Ej ännu spelade: #{n-finalized}"

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bertil Wennström on SrS</title>
-    <link>https://christernilsson.github.io/SrS/klubben/medlemmar/bertil-wennstr%C3%B6m/</link>
+    <link>http://localhost:1313/SrS/klubben/medlemmar/bertil-wennstr%C3%B6m/</link>
     <description>Recent content in Bertil Wennström on SrS</description>
     <generator>Hugo</generator>
     <language>sv-se</language>
-    <atom:link href="https://christernilsson.github.io/SrS/klubben/medlemmar/bertil-wennstr%C3%B6m/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/SrS/klubben/medlemmar/bertil-wennstr%C3%B6m/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

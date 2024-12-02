@@ -1,5 +1,6 @@
 ---
 title: Turnering
+hidden: true
 ---
 
 <div id="turnering"></div>
