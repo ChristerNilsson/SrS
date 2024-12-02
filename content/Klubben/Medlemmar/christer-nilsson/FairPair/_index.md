@@ -36,7 +36,7 @@ Detta är exakt samma metod som den man använder när en spelare ges en initial
 4. [Exempel](https://chess-results.com/tnr996761.aspx?lan=6&art=9&fed=SWE&snr=17): Spelare med rating 1601  
 	Fyra ronder gav följande elo för motståndarna: 1924, 0, 1822, 0  
 	Spelaren fick ej möta dessa närliggande: 1559, 1595 och 1657.  
-5. Schweizer behöver många särskiljningsregler iom många spelare slåss om få poäng. T ex Tyresö Open: 78 spelare ska fördelas på 15 nivåer.  
+5. Schweizer behöver många särskiljningsregler iom många spelare slåss om få poäng. T ex Tyresö Open: 78 spelare ska fördelas på 17 nivåer.  
 	FairPair fördelar 78 spelare på tusentals nivåer. Då minskar behovet av särskiljning.
 
 Ju mer information man använder, desto bättre blir sorteringen. 
