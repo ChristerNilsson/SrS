@@ -12,11 +12,7 @@
 	{{ range .Site.Data.inbjudningar.rows }}
 		{{ $today := now.Format "2006-01-02" }}
 		{{ $old := lt .datum $today }}
-		{{ if $old }}
-			<tr style="color:#bbb">
-		{{ else }}
-			<tr style="color:#fff">
-		{{ end }}
+		{{ if $old }}<tr class="old">{{ else }}<tr>{{ end }}
 			<td>{{ .datum }}</td>
 			<td>{{ .tid }}</td>
 			<td>{{ .typ }}</td>

@@ -1,7 +1,7 @@
-table = (s) -> "<table>\n" + s + "</table>"
-td = (s,attrs="") -> "<td #{attrs}>" + s + "</td>"
-tr = (s,attrs="") -> "<tr #{attrs}>" + s + "</tr>\n"
-th = (s,attrs="") -> "<th #{attrs}>" + s + "</th>"
+table = (s) -> "<table>\n#{s}</table>"
+tr = (s,attrs="") -> "<tr #{attrs}>#{s}</tr>\n"
+td = (s,attrs="") -> "<td #{attrs}>#{s}</td>"
+th = (s,attrs="") -> "<th #{attrs}>#{s}</th>"
 
 turneringar = {
 	14507: "Klass M",
@@ -29,20 +29,18 @@ process = (data_t, data_r, tid, pid) ->
 	stable += th "mot"
 	stable += th "resultat"
 	stable = tr stable
-	good = 0
-	n = 0
+
+	played = 0
+	n = data_r.length
+
 	center = 'style="text-align: center"'
-	grå    = 'style="color:#444444"'
+	grå    = 'class="old"'
 	now = new Date()
 	nu = now.toLocaleDateString "sv-SE"
 
 	for r in data_r
 		g = r.games[0]
-		if r.finalized 
-			n += 1
-			# if r.homeResult != 0 or r.awayResult != 0 then good += 1
-			if g.result in [-1,0,1] then good += 1
-		# console.log r.awayId,r.homeId
+		if r.finalized and g.result in [-1,0,1] then played += 1
 		if r.awayId == pid or r.homeId == pid
 			färg = if r.homeId==pid then "vit" else "svart"
 			s = ""
@@ -69,4 +67,4 @@ process = (data_t, data_r, tid, pid) ->
 	turnering.innerHTML = "<a href='https://member.schack.se/ShowTournamentServlet?id=#{tid}'>#{turneringar[tid]}</a>"
 	spelare.innerText = "Spelare: " + players[pid]
 	app.innerHTML = table stable
-	statistik.innerText = "#{good} of #{n} games played (#{(100*good/n).toFixed 1}%)"
+	statistik.innerText = "#{played} av #{n} partier spelade i turneringen. (#{(100*played/n).toFixed 1}%)"

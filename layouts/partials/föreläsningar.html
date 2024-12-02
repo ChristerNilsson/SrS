@@ -8,8 +8,7 @@
 	<tbody>
 	{{ range .Site.Data.föreläsningar.rows }}
 		{{ $old := lt .datum (now.Format "2006-01-02") }}
-		{{ if $old }}<tr style="color:#bbb">
-		{{ else }}<tr style="color:#fff">{{ end }}
+		{{ if $old }}<tr class="old">{{ else }}<tr>{{ end }}
 			<td>{{ .datum }}</td>
 			<td style="text-align:left">{{ if .länk }}<a href="{{ .länk }}">{{ .föreläsning }}</a>{{ else}}{{ .föreläsning }}{{ end }}</td>
 		</tr>
