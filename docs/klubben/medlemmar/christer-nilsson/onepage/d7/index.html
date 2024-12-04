@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/SrS/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=SrS/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D7</title>
+
+   
+
+  
+  <link rel="stylesheet" href="/SrS/styles.css">
+
+</head>
+<body>
+
+	
+
+	<main>
+		
+
+	
+
+	<script>
+
+function setStorage(key,value){
+	document.body.setAttribute(key, value);
+	localStorage.setItem(key, value);
+}
+
+function setDefault(key,value) {
+	if (localStorage.getItem(key) == null) {
+		setStorage(key,value)
+	} else {
+		setStorage(key, localStorage.getItem(key))
+	}
+}
+setDefault('theme','dark')
+setDefault('fontsize','20px')
+setDefault('font','Helvetica')
+
+</script>
+
+
+	<div>
+	
+		
+
+<a href="/SrS/">Home</a> • 
+<a href="/SrS/klubben/">Klubben</a> • 
+<a href="/SrS/klubben/medlemmar/">Medlemmar</a> • 
+<a href="/SrS/klubben/medlemmar/christer-nilsson/">Christer Nilsson</a> • 
+<a href="/SrS/klubben/medlemmar/christer-nilsson/onepage/">OnePage</a>
+
+
+		<h1>D7</h1>
+
+		
+		
+		<pre tabindex="0"><code>Pos #   1     2     3     4     5     6     7   Score   Elo Namn                 T 0½1
+01 01 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 1234.5 1238 JOHANSSON Lennart B 01 ___
+02 02 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 1234.5 1238 PETTERSSON Lars-Åke 02 ___
+03 03 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 1234.5 1238 NILSSON Christer    02 ___
+03 03 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 01•½½ 1234.5 1238 NILSSON Christer    01 ___
+</code></pre><script>
+window.onbeforeprint = () => {
+    if (!document.body.innerText.trim()) {
+        alert("Inget innehåll att skriva ut.");
+        event.preventDefault(); // Hindrar utskriften
+    }
+};
+</script>
+
+	
+	</div>
+
+	</main>
+
+	 
+
+</body>
+</html>

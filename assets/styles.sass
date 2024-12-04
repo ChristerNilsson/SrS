@@ -1,7 +1,6 @@
 body 
   display: grid
   min-height: 100vh
-  margin: 20px
 
 table
   border-collapse: collapse
@@ -147,3 +146,11 @@ blue
 
 old
   color: gray
+
+@media screen
+  body
+    margin: 20px
+
+@media print
+  body
+    margin: 0 /* Hindrar blank sida */
