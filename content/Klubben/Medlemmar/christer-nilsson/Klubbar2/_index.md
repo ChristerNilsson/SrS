@@ -12,6 +12,8 @@ title: Klubbar2
 * BS = Blixt Swiss
 * FR = Fischer Random
 
+Enhet: ronder.
+
 |LB|LS|RS|BS-Elo|B-FR|Klubb|
 |-:|-:|-:|-----:|---:|-----|
 |18|11|21|    74|  18|[Stockholms SS](https://schacksallskapet.se)|
