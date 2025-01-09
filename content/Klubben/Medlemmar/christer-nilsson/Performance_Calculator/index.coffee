@@ -49,7 +49,7 @@ calculate = ->
 
 calculate()
 
-ass "8118", performance(0.0,[1500]).toFixed 0
+ass "1118", performance(0.0,[1500]).toFixed 0
 ass "1500", performance(0.5,[1500]).toFixed 0
 ass "1882", performance(1.0,[1500]).toFixed 0
 
