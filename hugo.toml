@@ -2,7 +2,7 @@ baseURL = 'https://christernilsson.github.io/SrS/'
 languageCode = 'sv-se'
 title = 'SrS'
 default_auto = false
-publishDir = "docs"
+publishDir = 'docs'
 
 [markup]
   [markup.goldmark]

@@ -102,3 +102,13 @@ Följande element användes:
 ### Vad finns i Christers variant, men inte i Hugo?
 
 * Man kan inte klicka på rubriken och se aktuell markdown
+
+### Hur man utvecklar
+
+* cd \github\SrS
+* hugo server
+	* Uppdaterar all html
+	* Kopierar till docs (public)
+* localhost:1313
+* Refresha manuellt
+* Använd inte Go Live

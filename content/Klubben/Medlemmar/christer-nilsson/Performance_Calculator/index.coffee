@@ -1,3 +1,9 @@
+ass = (a,b) ->
+	if a != b 
+		console.log 'assert failure'
+		console.log a
+		console.log b
+
 summa = (arr) ->
 	res = 0
 	for item in arr
@@ -42,3 +48,13 @@ calculate = ->
 	document.getElementById("PR").innerText = performance(pp, elos).toFixed 6
 
 calculate()
+
+ass "8118", performance(0.0,[1500]).toFixed 0
+ass "1500", performance(0.5,[1500]).toFixed 0
+ass "1882", performance(1.0,[1500]).toFixed 0
+
+ass "1161", performance(0.0,[1500,1600]).toFixed 0
+ass "1356", performance(0.5,[1500,1600]).toFixed 0
+ass "1550", performance(1.0,[1500,1600]).toFixed 0
+ass "1744", performance(1.5,[1500,1600]).toFixed 0
+ass "1939", performance(2.0,[1500,1600]).toFixed 0
