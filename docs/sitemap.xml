@@ -4,8 +4,6 @@
   <url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/argument_f%C3%B6r_christers_f%C3%B6rslag/case/</loc>
   </url><url>
-    <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/s%C3%A4llskapet/</loc>
-  </url><url>
     <loc>http://localhost:1313/SrS/program/klubbm%C3%A4sterskap/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/resultat/</loc>
@@ -157,6 +155,8 @@
     <loc>http://localhost:1313/SrS/arkiv/resultat-i-snabbschack-och-blixt/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/round_robin/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/s%C3%A4llskapet/</loc>
   </url><url>
     <loc>http://localhost:1313/SrS/klubben/medlemmar/christer-nilsson/schackhistoria/</loc>
   </url><url>
