@@ -103,12 +103,23 @@ Följande element användes:
 
 * Man kan inte klicka på rubriken och se aktuell markdown
 
-### Hur man utvecklar
+### Utveckling
 
 * cd \github\SrS
 * hugo server
 	* Uppdaterar all html
 	* Kopierar till docs (public)
-* localhost:1313
 * Refresha manuellt
+	* ctrl-c
+	* starta hugo server
+	* refresh på websidan
+	* Jag har inte hittat något sätt att slippa detta.
+* localhost:1313
 * Använd inte Go Live
+* Se även hugo.toml där bl a docs sätts (som github behöver)
+
+### Produktion
+
+* hugo
+	* Tar bort livereload.js från koden
+* commit

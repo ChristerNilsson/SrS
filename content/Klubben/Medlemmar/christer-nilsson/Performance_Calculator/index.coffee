@@ -41,6 +41,7 @@ performance = (pp,elos) ->
 
 calculate = ->
 	input = document.getElementById("INPUT").value
+	input = input.replaceAll ',',' '
 	data = input.trim().split ' '
 	if data.length <= 1 then return
 	pp = parseFloat data.pop()
